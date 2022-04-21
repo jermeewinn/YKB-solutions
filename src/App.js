@@ -49,6 +49,8 @@ function App() {
       <main>
         {renderPage()}
       </main>
+      
+      <Footer />
     </div>
   );
 };
