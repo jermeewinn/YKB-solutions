@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   //categories for the top of the Nav bar
@@ -49,7 +51,7 @@ function App() {
       <main>
         {renderPage()}
       </main>
-      
+
       <Footer />
     </div>
   );
