@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
-import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
+import About from './components/About';
+import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
