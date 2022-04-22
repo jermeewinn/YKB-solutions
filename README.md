@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# YKB Solutions Inc.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+YKB Solutions Inc. is a career consulting firm committed to helping people transition from one career track to another. YKB was founded by college-senior [Michael Mei](https://www.linkedin.com/in/michael-h-mei/) back in 2017 at UC Santa Cruz as campus-wide career services for students transitioning from school to early-career was limited in scope across campus. Today, YKB serves as a means for its clients to leave their dead-end jobs to build new careers for themselves.
 
-## Available Scripts
+This GitHub repository is the official deployment of YKB Solutions' website using a React.js front-end. This project is purely a front-end project.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+[License](#license)
+[Technologies Used](#technologies_used)
+[Deployed Link](#deployed_link)
+[Screenshot](#screenshot)
+[Contact Us](#contact_us)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## License
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### `npm test`
+Copyright 2022 Jeremy Huynh
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### `npm run build`
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+- React.js
+- JavaScript
+- CSS React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployed Link
 
-### `npm run eject`
+## Screenshot
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Future Development
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As of right now, we need to figure out how to enable the contact section to send emails to a specified email address. Previous solutions for previous projects have not worked before, so currently looking for an emailing solution so that potential clients can get in direct touch with Michael.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We will need to come up with a clean and professional theme to build YKB's brand and character. Might consider looking to contract bootcamp classmates to handle the front-end.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact Us
 
-## Learn More
+This React.js application was created by [Jeremy Huynh](https://www.linkedin.com/in/jeremy-huynh/), April 2022. If you would like to contract my freelance services, please reach out to me via LinkedIn or my email at: [jeahuynh18@gmail.com](#jeahuynh18@gmail.com) 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you are interested in contracting [Michael's](https://www.linkedin.com/in/michael-h-mei/) services via YKB Solutions Inc., please message him via his LinkedIn profile.
