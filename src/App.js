@@ -3,15 +3,15 @@ import React, { useState } from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
-import Testimonial from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
 
 function App() {
   //categories for the top of the Nav bar
   const [categories] = useState([
     {
-      name: "What We Do",
+      name: "Who We Are",
       description: "Meet the crew you will be working with"
     },
     {
@@ -35,7 +35,7 @@ function App() {
       return <About currentCategory={currentCategory} />;
     }
     if (currentCategory.name === 'Testimonials') {
-      return <Testimonial currentCategory={currentCategory} />;
+      return <Testimonials currentCategory={currentCategory} />;
     }
     if (currentCategory.name === 'Contact Us') {
       return <Contact currentCategory={currentCategory} />;
