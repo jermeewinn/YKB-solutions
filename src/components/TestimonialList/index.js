@@ -46,7 +46,15 @@ const TestimonialList = ({ tech }) => {
         }
     ]);
 
-    
+    return(
+        <div>
+            <div className='flex-row'>
+                {clients.map((client, i) => (
+                    <Review client={client} />
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default TestimonialList;
