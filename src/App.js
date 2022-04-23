@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 import './App.css';
 import Nav from './components/Nav';
-import WhoWeAre from './components/WhoWeAre';
-import Testimonials from './components/Testimonials';
+import About from './components/About';
+import Testimonial from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -11,7 +11,7 @@ function App() {
   //categories for the top of the Nav bar
   const [categories] = useState([
     {
-      name: "Who We Are",
+      name: "What We Do",
       description: "Meet the crew you will be working with"
     },
     {
@@ -32,10 +32,10 @@ function App() {
   const renderPage = () => {
     console.log(currentCategory.name)
     if (currentCategory.name === 'Who We Are') {
-      return <WhoWeAre currentCategory={currentCategory} />;
+      return <About currentCategory={currentCategory} />;
     }
     if (currentCategory.name === 'Testimonials') {
-      return <Testimonials currentCategory={currentCategory} />;
+      return <Testimonial currentCategory={currentCategory} />;
     }
     if (currentCategory.name === 'Contact Us') {
       return <Contact currentCategory={currentCategory} />;
