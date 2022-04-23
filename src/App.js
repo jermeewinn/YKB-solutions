@@ -3,9 +3,11 @@ import React, { useState } from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
+import Services from './components/Services';
+import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Testimonials from './components/Testimonials';
+
 
 function App() {
   //categories for the top of the Nav bar
@@ -33,6 +35,9 @@ function App() {
     console.log(currentCategory.name)
     if (currentCategory.name === 'Who We Are') {
       return <About currentCategory={currentCategory} />;
+    }
+    if (currentCategory.name === 'What We Do') {
+      return <Services currentCategory={currentCategory} />;
     }
     if (currentCategory.name === 'Testimonials') {
       return <Testimonials currentCategory={currentCategory} />;

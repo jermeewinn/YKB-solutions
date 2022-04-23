@@ -4,7 +4,7 @@ import TestimonialList from '../TestimonialList';
 function Testimonials({ currentCategory }) {
     const { name, description } = currentCategory;
     return(
-        <section>
+        <section id='testimonials'>
             <h1>{name}</h1>
             <p>{description}</p>
             <TestimonialList />
