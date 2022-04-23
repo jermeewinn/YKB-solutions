@@ -1,12 +1,12 @@
 import React from 'react';
 import TestimonialList from '../TestimonialList';
 
-function Testimonials({ currentCategory }) {
-    const { name, description } = currentCategory;
+function Testimonials() {
+    // const { name, description } = currentCategory;
     return(
-        <section>
-            <h1>{name}</h1>
-            <p>{description}</p>
+        <section id='testimonials'>
+            <h1>Testimonials</h1>
+            <p>Here you can see some of the user stories for previous clients dating back to 2017.</p>
             <TestimonialList />
         </section>
     )

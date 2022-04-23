@@ -38,7 +38,7 @@ const TestimonialList = ({ tech }) => {
         },
         {
             name: 'Therese Nguyen',
-            src: 'Therese-Nguyen-pfp.jgp',
+            src: 'Therese-Nguyen-pfp.jpg',
             title: 'Master Scheduler',
             company: 'Gener8',
             link: 'https://www.linkedin.com/in/theresen/',
