@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 
 function App() {
-  //categories for the top of the Nav bar
+  //categories to appear in the Navbar at the top
   const [categories] = useState([
     {
       name: "Who We Are",
