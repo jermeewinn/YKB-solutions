@@ -1,5 +1,5 @@
 import React from 'react';
-import TestimonialList from '../TestimonialList';
+import TestimonialList from './TestimonialList';
 
 function Testimonials() {
     // const { name, description } = currentCategory;

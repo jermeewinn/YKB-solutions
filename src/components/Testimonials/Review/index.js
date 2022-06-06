@@ -6,7 +6,7 @@ const Review = ({ client }) => {
             <h4>
                 <a href={client.link}>{client.name}</a>
             </h4>
-            <img src={require(`../../assets/profilePics/${client.src}`)}
+            <img src={require(`../../../assets/profilePics/${client.src}`)}
                 alt={client.name}
                 className='img-thumbnail'
                 key={client.name} />
