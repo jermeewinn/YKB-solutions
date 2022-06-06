@@ -13,11 +13,11 @@ function App() {
   //categories to appear in the Navbar at the top
   const [categories] = useState([
     {
-      name: "Who We Are",
+      name: "About Us",
       description: "Meet the crew you will be working with"
     },
     {
-      name: "What We Do",
+      name: "Services",
       description: "Here's a summary of our services"
     },
     {
@@ -33,10 +33,10 @@ function App() {
 
   const renderPage = () => {
     console.log(currentCategory.name)
-    if (currentCategory.name === 'Who We Are') {
+    if (currentCategory.name === 'About Us') {
       return <About currentCategory={currentCategory} />;
     }
-    if (currentCategory.name === 'What We Do') {
+    if (currentCategory.name === 'Services') {
       return <Services currentCategory={currentCategory} />;
     }
     if (currentCategory.name === 'Testimonials') {
