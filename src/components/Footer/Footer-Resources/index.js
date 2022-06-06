@@ -10,6 +10,9 @@ const FooterResources = () => {
             <a href="" class="footer-link">Certification Testing</a>
             <a href="" class="footer-link">Managing your GitHub Profile</a>
             <a href="" class="footer-link">Career Change First Steps</a>
+            <a href="" class="footer-link">Negotiating Salaries</a>
+            <a href="" class="footer-link">Prospecting and Outreach</a>
+            <a href="" class="footer-link">Applying to Jobs</a>
         </div>
     );
 };
