@@ -2,6 +2,7 @@ import React from 'react';
 import FooterServices from './Footer-Services';
 import FooterResources from './Footer-Resources';
 import FooterCompany from './Footer-Company';
+import FooterContact from './Footer-Contact';
 
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
                 <FooterServices />
                 <FooterResources />
                 <FooterCompany />
-                
+                <FooterContact />
                 <h6>&copy;{new Date().getFullYear()} YKB Solutions Inc.</h6>
             </div>
         </footer>
