@@ -13,8 +13,8 @@ const Footer = () => {
                 <FooterResources />
                 <FooterCompany />
                 <FooterContact />
-                <h6>&copy;{new Date().getFullYear()} YKB Solutions Inc.</h6>
             </div>
+            <h6>&copy;{new Date().getFullYear()} YKB Solutions Inc.</h6>
         </footer>
     );
 };
