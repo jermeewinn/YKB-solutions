@@ -11,7 +11,7 @@ const FooterResources = () => {
             <a href="" class="footer-link">Managing your GitHub Profile</a>
             <a href="" class="footer-link">Career Change First Steps</a>
         </div>
-    )
+    );
 };
 
 export default FooterResources;

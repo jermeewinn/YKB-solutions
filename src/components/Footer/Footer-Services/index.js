@@ -13,7 +13,7 @@ const FooterServices = () => {
             <a href="" class="footer-link">Applying to Jobs</a>
             <a href="" class="footer-link">Prepping for Interviews</a>
         </div>
-    )
+    );
 };
 
 export default FooterServices;
