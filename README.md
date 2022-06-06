@@ -6,11 +6,11 @@ This GitHub repository is the official deployment of YKB Solutions' website usin
 
 ## Table of Contents
 
-[License](#license)
-[Technologies Used](#technologies_used)
-[Deployed Link](#deployed_link)
-[Screenshot](#screenshot)
-[Contact Us](#contact_us)
+- [License](#license)
+- [Technologies Used](#technologies_used)
+- [Deployed Link](#deployed_link)
+- [Screenshot](#screenshot)
+- [Contact Us](#contact_us)
 
 ## License
 
