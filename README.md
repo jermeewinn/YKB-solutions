@@ -2,15 +2,15 @@
 
 YKB Solutions Inc. is a career consulting firm committed to helping people transition from one career track to another. YKB was founded by college-senior [Michael Mei](https://www.linkedin.com/in/michael-h-mei/) back in 2017 at UC Santa Cruz as campus-wide career services for students transitioning from school to early-career was limited in scope across campus. Today, YKB serves as a means for its clients to leave their dead-end jobs to build new careers for themselves.
 
-This GitHub repository is the official deployment of YKB Solutions' website using a React.js front-end. This project is purely a front-end project.
-
+This GitHub repository is the official full-stack deployment of YKB Solutions' website using a React.js frontend and AWS backend for data storage.
 ## Table of Contents
 
 - [License](#license)
-- [Technologies Used](#technologies_used)
-- [Deployed Link](#deployed_link)
+- [Technologies Used](#technologies-used)
+- [Deployed Link](#deployed-link)
 - [Screenshot](#screenshot)
-- [Contact Us](#contact_us)
+- [Future Development](#future-development)
+- [Contact Us](#contact-us)
 
 ## License
 
@@ -35,9 +35,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Future Development
 
-As of right now, we need to figure out how to enable the contact section to send emails to a specified email address. Previous solutions for previous projects have not worked before, so currently looking for an emailing solution so that potential clients can get in direct touch with Michael.
+There are a few things we are planning on implementing into the web app:
 
-We will need to come up with a clean and professional theme to build YKB's brand and character. Might consider looking to contract bootcamp classmates to handle the front-end.
+- Enable the contact section to send emails to ykbcoaching@gmail.com upon clicking the submit button.
+- Refactor the testimonials components so that client use-cases can be opened w/i a modal and maintain SPA viability while showing as much information as possible.
+- Restyle footer section so that the website is easy to navigate at a glance.
+- Enable users the ability to create an account with us, login/logout functions for said accounts. Logged-in users will be able to access schedule their first career consultation with us for free through Calendly. Paying customers can schedule follow-up meetings with us through Calendly as need be.
+- Figure out a way to create dropdown menus from within the NavBar at the top of the page.
 
 ## Contact Us
 
