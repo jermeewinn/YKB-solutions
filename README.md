@@ -42,6 +42,7 @@ There are a few things we are planning on implementing into the web app:
 - Restyle footer section so that the website is easy to navigate at a glance.
 - Enable users the ability to create an account with us, login/logout functions for said accounts. Logged-in users will be able to access schedule their first career consultation with us for free through Calendly. Paying customers can schedule follow-up meetings with us through Calendly as need be.
 - Figure out a way to create dropdown menus from within the NavBar at the top of the page.
+- Figure out a way to refactor component file structure so that child components are less confusing to identify and associate with their parent components.
 
 ## Contact Us
 
