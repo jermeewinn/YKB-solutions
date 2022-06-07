@@ -3,13 +3,28 @@ import React from 'react';
 function Services() {
     return(
         <section id='services'>
-            <h1 id='what we do'>Our Services</h1>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className='services-container'>
+                <h1>Looking to Kickstart Your Career?</h1>
+                <h4>We'll get you started with a free consultation</h4>
+                <div>
+                    <p>The questions you'll need the answers for are:</p>
+                    <ul>
+                        <li>
+                            What do you want to change about your career right now?
+                        </li>
+                        <li>
+                            What do you want to be doing in 5 years?
+                        </li>
+                        <li>
+                            What would be your first step in moving in this new direction?
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className='services-container'>
+                
             </div>
+            <h1>Our customers want to make changes in their careers. We give them the tools to achieve that.</h1>
         </section>
     );
 };
