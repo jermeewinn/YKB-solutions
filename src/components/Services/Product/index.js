@@ -6,6 +6,9 @@ const Product = ({ service }) => {
             <h4>
                 {service.name}
             </h4>
+            <div>
+                {service.description}
+            </div>
         </div>
     )
 }

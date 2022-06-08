@@ -4,7 +4,7 @@ import Product from '../Product';
 const ServiceList = ({  }) => {
     const [services] = useState([
         {
-            name: 'Career Conulting',
+            name: 'Career Consulting',
             description: 'Career consulting is our bread and butter. Here we sit you down in a one-on-one setting and get to figuring out what you want for your career in the next 5 years, and what next steps you need to take to get there.'
         },
         {
@@ -28,8 +28,8 @@ const ServiceList = ({  }) => {
     return(
         <div>
             <div className='flex-row'>
-                {services.map((services, i) => (
-                    <Product service={product} />
+                {services.map((service, i) => (
+                    <Product service={service} />
                 ))}
             </div>
         </div>
