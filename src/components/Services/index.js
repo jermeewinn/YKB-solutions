@@ -1,4 +1,5 @@
 import React from 'react';
+import ServiceList from '../Services/ServiceList';
 
 function Services() {
     return(
