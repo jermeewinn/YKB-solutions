@@ -23,7 +23,7 @@ function Services() {
                 </div>
             </div>
             <div className='services-container'>
-                <h1>Our customers want to make changes in their careers. We give them the tools to achieve that.</h1>
+                <h1>Our customers want to make changes in their careers. <br />We give them the tools to achieve that.</h1>
                 <ServiceList />
             </div>
             
