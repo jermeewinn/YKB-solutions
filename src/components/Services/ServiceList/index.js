@@ -14,7 +14,7 @@ const ServiceList = ({  }) => {
             src: 'Resume.jpg'
         },
         {
-            name: 'LinkedIn Audit',
+            name: 'LinkedIn Profile Audit',
             description: 'The future of job hunting is online, and Linkedin is a major part of that. We will help you create and configure your LinkedIn profile so that you can start job hunting quickly and efficiently.',
             src: 'LinkedIn.jpg'
         },
