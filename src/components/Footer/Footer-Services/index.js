@@ -1,8 +1,9 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 
 const FooterServices = () => {
     return(
-        <div className="footer-column">
+        <Col className="footer-column">
             <h3>Services</h3>
             <a href="" className="footer-link">Career Consulting</a>
             <a href="" className="footer-link">Resume Review</a>
@@ -12,7 +13,7 @@ const FooterServices = () => {
             <a href="" className="footer-link">Prospecting and Outreach</a>
             <a href="" className="footer-link">Applying to Jobs</a>
             <a href="" className="footer-link">Prepping for Interviews</a>
-        </div>
+        </Col>
     );
 };
 

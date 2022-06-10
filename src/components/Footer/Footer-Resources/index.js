@@ -1,8 +1,10 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
+
 
 const FooterResources = () => {
     return(
-        <div className="footer-column">
+        <Col className="footer-column">
             <h3>Resources</h3>
             <a href="" className="footer-link">Resume Building</a>
             <a href="" className="footer-link">How to Create a LinkedIn Profile</a>
@@ -13,7 +15,7 @@ const FooterResources = () => {
             <a href="" className="footer-link">Negotiating Salaries</a>
             <a href="" className="footer-link">Prospecting and Outreach</a>
             <a href="" className="footer-link">Applying to Jobs</a>
-        </div>
+        </Col>
     );
 };
 

@@ -12,7 +12,7 @@ function Nav(props) {
     }, [currentCategory]);
 
     return (
-        <header>
+        <header className='flex-row px-1'>
             <h1>
                 <a href='/'>
                     YKB Solutions Inc.
