@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Product from '../Product';
 
-const ServiceList = ({  }) => {
+const ServiceList = ({}) => {
     const [services] = useState([
         {
             name: 'Career Consulting',
@@ -32,13 +32,6 @@ const ServiceList = ({  }) => {
     ]);
 
     return(
-        // <div>
-        //     <div className='flex-row'>
-        //         {services.map((service, i) => (
-        //             <Product service={service} />
-        //         ))}
-        //     </div>
-        // </div>
         <Container>
             <Row> 
                 {services.map((service, i) => (
