@@ -4,7 +4,7 @@ import { Card, Col } from 'react-bootstrap';
 const Product = ({ service }) => {
     return(
         <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='service-card'>
                 <Card.Img variant='top' src={require(`../../../assets/stockPhotos/${service.src}`)} />
                 <Card.Body>
                     <Card.Title>{service.name}</Card.Title>

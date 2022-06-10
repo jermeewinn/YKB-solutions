@@ -9,7 +9,6 @@ const FooterServices = () => {
             <a href="" className="footer-link">Resume Review</a><br/>
             <a href="" className="footer-link">Linkedin Profile Audit</a><br/>
             <a href="" className="footer-link">Cover Letter Composition</a><br/>
-            <a href="" className="footer-link">Negotiating Salaries</a><br/>
             <a href="" className="footer-link">Interview Prep</a><br/>
         </Col>
     );
