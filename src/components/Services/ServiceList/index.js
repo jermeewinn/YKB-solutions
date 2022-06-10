@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Container, Col, Row } from 'react-bootstrap';
 import Product from '../Product';
 
 const ServiceList = ({  }) => {
@@ -31,13 +32,20 @@ const ServiceList = ({  }) => {
     ]);
 
     return(
-        <div>
-            <div className='flex-row'>
+        // <div>
+        //     <div className='flex-row'>
+        //         {services.map((service, i) => (
+        //             <Product service={service} />
+        //         ))}
+        //     </div>
+        // </div>
+        <Container>
+            <Row> 
                 {services.map((service, i) => (
                     <Product service={service} />
                 ))}
-            </div>
-        </div>
+            </Row>
+        </Container>
     )
 };
 

@@ -1,6 +1,6 @@
 import { requirePropFactory } from '@mui/material';
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Container, Row, Col } from 'react-bootstrap';
 
 const Product = ({ service }) => {
     return(
@@ -16,13 +16,18 @@ const Product = ({ service }) => {
         //         {service.description}
         //     </div>
         // </div>
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant='top' src={require(`../../../assets/stockPhotos/${service.src}`)} />
-            <Card.Body>
-                <Card.Title>{service.name}</Card.Title>
-                <Card.Text>{service.description}</Card.Text>
-            </Card.Body>
-        </Card>
+        <>
+        <Col>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant='top' src={require(`../../../assets/stockPhotos/${service.src}`)} />
+                <Card.Body>
+                    <Card.Title>{service.name}</Card.Title>
+                    <Card.Text>{service.description}</Card.Text>
+                </Card.Body>
+            </Card>
+        </Col>
+        <br />
+        </>
     )
 }
 
