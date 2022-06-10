@@ -6,9 +6,9 @@ const FooterContact = () => {
     return(
         <Col className="footer-column">
             <h3>Contact Us</h3>
-            <a href="" className="footer-link">LinkedIn</a>
-            <a href="" className="footer-link">Instagram</a>
-            <a href="" className="footer-link">ykbcoaching@gmail.com</a>
+            <a href="" className="footer-link">LinkedIn</a><br/>
+            <a href="" className="footer-link">Instagram</a><br/>
+            <a href="" className="footer-link">ykbcoaching@gmail.com</a><br/>
         </Col>
     );
 };
