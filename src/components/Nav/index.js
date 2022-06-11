@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Navbar from 'react-bootstrap';
 
 function Nav(props) {
     const {
@@ -30,6 +31,11 @@ function Nav(props) {
                 </ul>
             </nav>
         </header>
+        // <>
+        //     <Navbar bg='dark' variant='dark'>
+                
+        //     </Navbar>
+        // </>
     )
 };
 
