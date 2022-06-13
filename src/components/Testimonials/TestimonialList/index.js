@@ -49,16 +49,15 @@ const TestimonialList = ({ tech }) => {
     ]);
 
     return(
-        <Container>
+        <Container className='testimonial-container'>
             <Row className='flex-row'>
                 {clients.map((client, i) => (
-                    <Col xs={12} md={5} lg={3}>
-                        <Card>
-                            <Card.Img variant='top' src={require(`../../../assets/profilePics/${client.image}`)} />
+                    <Col className='testimonial-column' xs={12} md={6} lg={3}>
+                        <Card className='testimonial-card'>
+                            <Card.Img variant='left' src={require(`../../../assets/profilePics/${client.image}`)} />
                             <Card.Body>
                                 <Card.Title>{client.name}</Card.Title>
-                                <Card.Text>{client.description} <br /> <br /> {client.link}</Card.Text>
-
+                                <Card.Text>{client.description}</Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
