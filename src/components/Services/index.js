@@ -9,7 +9,7 @@ function Services() {
                 <h4>We'll get you started with a free consultation</h4>
                 <div>
                     <p>The questions you'll need the answers for are:</p>
-                    <ul>
+                    <ul className='services-ul'>
                         <li>
                             What do you want to change about your career right now?
                         </li>
