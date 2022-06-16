@@ -1,26 +1,31 @@
 import React, { useState } from 'react';
 import { Card, Col, Modal, Button } from 'react-bootstrap';
 
-function ServiceModal(service) {
+function ServiceModal(props) {
     return(
         <Modal
-            {...service}
+            {...props}
             size='lg'
             aria-labelledby='contained-modal-title-vcenter'
             centered
         >
-            <Modal.Header closeButtone>
+            <Modal.Header closeButton>
                 <Modal.Title id='contained-modal-title-vcenter'>
-                    {service.name}
+                    {/* {service.src} */}
+                    Test
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
+                {/* <h4>
+                    {service.name}
+                </h4>
                 <p>
                     {service.description}
-                </p>
+                </p> */}
+                Test
             </Modal.Body>
             <Modal.Footer>
-                <Button onclick={service.onHide}>Close</Button>
+                <Button onClick={props.onHide}>Close</Button>
             </Modal.Footer>
         </Modal>
     )
@@ -33,7 +38,7 @@ const Product = ({ service }) => {
 
     return(
         <Col>
-        
+        <>
             <Button variant='secondary' onClick={() => setModalShow(true)} style={{ width: '18rem' }} className='service-card' >
                 <Card.Img variant='top' src={require(`../../../assets/stockPhotos/${service.src}`)} />
                 <Card.Body>
@@ -42,7 +47,11 @@ const Product = ({ service }) => {
                 </Card.Body>
                 
             </Button>
-            <ServiceModal show={modalShow} onHide={() => setModalShow(false)}/>
+            <ServiceModal 
+                show={modalShow} 
+                onHide={() => setModalShow(false)}
+            />
+        </>
         </Col>
     )
 };
