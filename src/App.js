@@ -13,6 +13,9 @@ import Footer from './components/Footer';
 function App() {
   //categories to appear in the Navbar at the top
   const [categories] = useState([
+    // {
+    //   name: "Home"
+    // },
     {
       name: "About Us",
       description: "Meet the crew you will be working with"
@@ -34,6 +37,9 @@ function App() {
 
   const renderPage = () => {
     console.log(currentCategory.name)
+    // if (currentCatogry.name === 'Home') {
+    //   return <Home currentCategory={currentCategory} />;
+    // }
     if (currentCategory.name === 'About Us') {
       return <About currentCategory={currentCategory} />;
     }
@@ -60,7 +66,6 @@ function App() {
       <main>
         {renderPage()}
       </main>
-
       <Footer />
     </div>
   );
