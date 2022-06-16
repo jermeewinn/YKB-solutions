@@ -19,8 +19,7 @@ const Product = ({ service }) => {
             >
                 <Modal.Header closeButton>
                     <Modal.Title id='contained-modal-title-vcenter'>
-                        {service.src}
-                        Test
+                        <img class='service-modal' src={require(`../../../assets/stockPhotos/${service.src}`)} />
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
@@ -30,7 +29,6 @@ const Product = ({ service }) => {
                     <p>
                         {service.description}
                     </p>
-                    Test
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={props.onHide}>Close</Button>
@@ -41,12 +39,10 @@ const Product = ({ service }) => {
 
     return(
         <Col>
-        <>
             <Button variant='secondary' onClick={() => setModalShow(true)} style={{ width: '18rem' }} className='service-card' >
                 <Card.Img variant='top' src={require(`../../../assets/stockPhotos/${service.src}`)} />
                 <Card.Body>
                     <Card.Title>{service.name}</Card.Title>
-                    {/* <Card.Text>{service.description}</Card.Text> */}
                 </Card.Body>
                 
             </Button>
@@ -54,7 +50,6 @@ const Product = ({ service }) => {
                 show={modalShow} 
                 onHide={() => setModalShow(false)}
             />
-        </>
         </Col>
     )
 };
