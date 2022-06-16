@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 import Nav from './components/Nav';
+import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
@@ -13,9 +14,9 @@ import Footer from './components/Footer';
 function App() {
   //categories to appear in the Navbar at the top
   const [categories] = useState([
-    // {
-    //   name: "Home"
-    // },
+    {
+      name: "Home"
+    },
     {
       name: "About Us",
       description: "Meet the crew you will be working with"
@@ -37,9 +38,9 @@ function App() {
 
   const renderPage = () => {
     console.log(currentCategory.name)
-    // if (currentCatogry.name === 'Home') {
-    //   return <Home currentCategory={currentCategory} />;
-    // }
+    if (currentCategory.name === 'Home') {
+      return <Home currentCategory={currentCategory} />;
+    }
     if (currentCategory.name === 'About Us') {
       return <About currentCategory={currentCategory} />;
     }
