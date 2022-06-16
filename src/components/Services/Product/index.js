@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Card, Col, Modal, Button } from 'react-bootstrap';
-
-
 
 const Product = ({ service }) => {
     
-
     const [modalShow, setModalShow] = React.useState(false);
 
     function ServiceModal(props) {
@@ -44,7 +41,6 @@ const Product = ({ service }) => {
                 <Card.Body>
                     <Card.Title>{service.name}</Card.Title>
                 </Card.Body>
-                
             </Button>
             <ServiceModal 
                 show={modalShow} 
