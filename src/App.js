@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import Nav from './components/Nav';
+import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
@@ -59,11 +59,11 @@ function App() {
 
   return (
     <div className="App">
-      <Nav
+      <Navigation
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}>
-      </Nav>
+      </Navigation>
       <main>
         {renderPage()}
       </main>
