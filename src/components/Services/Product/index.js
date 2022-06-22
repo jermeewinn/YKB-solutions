@@ -16,7 +16,10 @@ const Product = ({ service }) => {
             >
                 <Modal.Header closeButton>
                     <Modal.Title id='contained-modal-title-vcenter'>
-                        <img class='service-modal' src={require(`../../../assets/stockPhotos/${service.src}`)} />
+                        <img 
+                            class='service-modal' 
+                            src={require(`../../../assets/stockPhotos/${service.src}`)}
+                            alt={service.alt} />
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
