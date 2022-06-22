@@ -13,6 +13,7 @@ This GitHub repository is the official full-stack deployment of YKB Solutions' w
 - [Screenshot](#screenshot)
 - [Future Development](#future-development)
 - [Contact Us](#contact-us)
+- [Collaborators](#collaborators)
 
 ## License
 
