@@ -6,7 +6,8 @@ const Product = ({ service }) => {
     const [modalShow, setModalShow] = React.useState(false);
 
     function ServiceModal(props) {
-    
+
+        // JSX for services modal when it is open.
         return(
             <Modal
                 {...props}
@@ -37,10 +38,20 @@ const Product = ({ service }) => {
         )
     };
 
+    // JSX for services cards when modals are closed.
     return(
         <Col>
-            <Button variant='secondary' onClick={() => setModalShow(true)} style={{ width: '18rem' }} className='service-card' >
-                <Card.Img variant='top' src={require(`../../../assets/stockPhotos/${service.src}`)} />
+            <Button 
+                variant='secondary' 
+                onClick={() => setModalShow(true)} 
+                style={{ width: '18rem' }} 
+                className='service-card' 
+            >
+                <Card.Img 
+                    variant='top' 
+                    src={require(`../../../assets/stockPhotos/${service.src}`)}
+                    alt={service.alt} 
+                />
                 <Card.Body>
                     <Card.Title>{service.name}</Card.Title>
                 </Card.Body>
