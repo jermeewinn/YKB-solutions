@@ -13,61 +13,64 @@ import Footer from './components/Footer';
 
 function App() {
   //categories to appear in the Navbar at the top
-  const [categories] = useState([
-    {
-      name: "Home"
-    },
-    {
-      name: "About Us",
-      description: "Meet the crew you will be working with"
-    },
-    {
-      name: "Services",
-      description: "Here's a summary of our services"
-    },
-    {
-      name: "Testimonials",
-      description: "Read some of our client stories"
-    },
-    {
-      name: "Contact Us",
-      description: "Reeach out to us for an inquiry"
-    },
+  // const [categories] = useState([
+  //   {
+  //     name: "Home"
+  //   },
+  //   {
+  //     name: "About Us",
+  //     description: "Meet the crew you will be working with"
+  //   },
+  //   {
+  //     name: "Services",
+  //     description: "Here's a summary of our services"
+  //   },
+  //   {
+  //     name: "Testimonials",
+  //     description: "Read some of our client stories"
+  //   },
+  //   {
+  //     name: "Contact Us",
+  //     description: "Reeach out to us for an inquiry"
+  //   },
    
-  ]);
+  // ]);
 
-  const renderPage = () => {
-    console.log(currentCategory.name)
-    if (currentCategory.name === 'Home') {
-      return <Home currentCategory={currentCategory} />;
-    }
-    if (currentCategory.name === 'About Us') {
-      return <About currentCategory={currentCategory} />;
-    }
-    if (currentCategory.name === 'Services') {
-      return <Services currentCategory={currentCategory} />;
-    }
-    if (currentCategory.name === 'Testimonials') {
-      return <Testimonials currentCategory={currentCategory} />;
-    }
-    if (currentCategory.name === 'Contact Us') {
-      return <Contact currentCategory={currentCategory} />;
-    }
-  };
+  // const renderPage = () => {
+  //   console.log(currentCategory.name)
+  //   if (currentCategory.name === 'Home') {
+  //     return <Home currentCategory={currentCategory} />;
+  //   }
+  //   if (currentCategory.name === 'About Us') {
+  //     return <About currentCategory={currentCategory} />;
+  //   }
+  //   if (currentCategory.name === 'Services') {
+  //     return <Services currentCategory={currentCategory} />;
+  //   }
+  //   if (currentCategory.name === 'Testimonials') {
+  //     return <Testimonials currentCategory={currentCategory} />;
+  //   }
+  //   if (currentCategory.name === 'Contact Us') {
+  //     return <Contact currentCategory={currentCategory} />;
+  //   }
+  // };
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
+    // <div className="App">
+    //   <Navigation
+    //     categories={categories}
+    //     setCurrentCategory={setCurrentCategory}
+    //     currentCategory={currentCategory}>
+    //   </Navigation>
+    //   <main>
+    //     {renderPage()}
+    //   </main>
+    //   <Footer />
+    // </div>
     <div className="App">
-      <Navigation
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}>
-      </Navigation>
-      <main>
-        {renderPage()}
-      </main>
-      <Footer />
+      <Navigation />  
     </div>
   );
 };

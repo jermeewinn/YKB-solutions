@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Home() {
-    return (
-        <section id='home'>
-            <div>
-                
-            </div>
-        </section>
-    )
-}
+// function Home() {
+//     return (
+//         <section id='home'>
+//             <div>
+//                 <h1>Home</h1>
+//                 <p>Sup</p>
+//             </div>
+//         </section>
+//     )
+// }
 
-export default Home;
+export default class Home extends Component {
+    render() {
+        return (
+            <section id='home'>
+                <div>
+                    <h1>Home</h1>
+                    <p>Sup</p>
+                </div>
+            </section>
+        )
+    }
+};
