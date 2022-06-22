@@ -23,7 +23,8 @@ const Product = ({ service }) => {
                         <img 
                             class='service-modal' 
                             src={require(`../../../assets/stockPhotos/${service.src}`)}
-                            alt={service.alt} />
+                            alt={service.alt}
+                        />
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>

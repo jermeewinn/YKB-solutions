@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { 
-    Navbar, 
-    Nav, 
-    Container 
-} from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 // NOTE TO SELF: Most documentation on react-router-dom mention use of <Switch> exports, but as of v6, Switch is now Routes.
 // More information can be found here: 
