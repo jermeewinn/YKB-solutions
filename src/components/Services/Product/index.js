@@ -1,6 +1,9 @@
 import React from 'react';
 import { Card, Col, Modal, Button } from 'react-bootstrap';
 
+// NOTE TO SELF: Will need to import specific components from react-bootstrap. 
+// React-bootstrap's documentation isn't very informative on how to import certain components into files.
+
 const Product = ({ service }) => {
     
     const [modalShow, setModalShow] = React.useState(false);

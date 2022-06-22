@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { 
+    Navbar, 
+    Nav, 
+    Container 
+} from 'react-bootstrap';
+
+// NOTE TO SELF: Most documentation on react-router-dom mention use of <Switch> exports, but as of v6,
+// Switch is now Routes.
 import {
     BrowserRouter as Router,
     Routes,
@@ -41,6 +48,11 @@ export default class Navigation extends Component {
                     </Navbar>
                 </div>
                 <div>
+                    {/* NOTE TO SELF: If you work off the react-router-dom documentation, you will get the following error:
+                    [About] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>
+                    
+                    You will need to place the component import w/i an element tag in order to import them. More info can be found here:
+                    https://stackoverflow.com/questions/69864165/error-privateroute-is-not-a-route-component-all-component-children-of-rou */}
                     <Routes>
                         <Route path="/" element={<Home />} />         
                         <Route path="/about" element={<About />} />                            
