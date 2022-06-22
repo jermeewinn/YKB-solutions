@@ -28,7 +28,7 @@ export default class Navigation extends Component {
                 <div>
                     <Navbar bg='dark' expand='lg'>
                         <Container>
-                            <Navbar.Brand href="#home">YKB Coaching</Navbar.Brand>
+                            <Navbar.Brand as={Link} to="/" href="#home">YKB Coaching</Navbar.Brand>
                             <Navbar.Toggle aria-controls='navbarScroll' />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav 
