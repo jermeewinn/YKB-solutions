@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import './App.css';
 
 import Navigation from './components/Navigation';
-import Home from './components/Home';
-import About from './components/About';
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
+// import Home from './components/Home';
+// import About from './components/About';
+// import Services from './components/Services';
+// import Testimonials from './components/Testimonials';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 
@@ -58,20 +58,12 @@ function App() {
   // const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    // <div className="App">
-    //   <Navigation
-    //     categories={categories}
-    //     setCurrentCategory={setCurrentCategory}
-    //     currentCategory={currentCategory}>
-    //   </Navigation>
-    //   <main>
-    //     {renderPage()}
-    //   </main>
-    //   <Footer />
-    // </div>
+    
     <div className="App">
-      <Navigation />  
+      <Navigation />
+      <Footer />  
     </div>
+    
   );
 };
 
