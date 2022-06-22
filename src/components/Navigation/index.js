@@ -5,8 +5,9 @@ import {
     Container 
 } from 'react-bootstrap';
 
-// NOTE TO SELF: Most documentation on react-router-dom mention use of <Switch> exports, but as of v6,
-// Switch is now Routes.
+// NOTE TO SELF: Most documentation on react-router-dom mention use of <Switch> exports, but as of v6, Switch is now Routes.
+// More information can be found here: 
+// https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom
 import {
     BrowserRouter as Router,
     Routes,
