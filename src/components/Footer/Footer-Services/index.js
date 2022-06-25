@@ -4,10 +4,9 @@ import { Col } from 'react-bootstrap';
 const FooterServices = () => {
     return(
         <Col className="footer-column">
-            {/* <h3>
-                <a href='/Services'>Services</a>
-            </h3> */}
-            <h3>Services</h3>
+            <h3>
+                <a href='/services'>Services</a>
+            </h3>
             <a href="" className="footer-link">Career Consulting</a><br/>
             <a href="" className="footer-link">Resume Review</a><br/>
             <a href="" className="footer-link">Linkedin Profile Audit</a><br/>
