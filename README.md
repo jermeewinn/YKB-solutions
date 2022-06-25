@@ -1,4 +1,4 @@
-# YKB Solutions Inc.
+# YKB Solutions Inc. 
 
 YKB Solutions Inc. is a career consulting firm committed to helping people transition from one career track to another. YKB was founded by college-senior [Michael Mei](https://www.linkedin.com/in/michael-h-mei/) back in 2017 at UC Santa Cruz as campus-wide career services for students transitioning from school to early-career was limited in scope across campus. Today, YKB serves as a means for its clients to leave their dead-end jobs to build new careers for themselves.
 
@@ -77,17 +77,17 @@ This React.js application was created by [Jeremy Huynh](https://www.linkedin.com
 If you are interested in contracting [Michael's](https://www.linkedin.com/in/michael-h-mei/) services via YKB Solutions Inc., please message him via his LinkedIn profile.
 
 ## Collaborators
-<u>Michael Mei</u> - Project Manager
+**<u>Michael Mei</u>** - Project Manager
 - **[Linkedin Profile](https://www.linkedin.com/in/michael-h-mei/)**
 
-<u>Jeremy Huynh</u> - Lead Web Developer
+**<u>Jeremy Huynh</u>** - Lead Web Developer
 - **[LinkedIn Profile](https://www.linkedin.com/in/jeremy-huynh/)**
 - **[GitHub Repository](https://github.com/jermeewinn)**
 
-<u>Kosal Cheykim</u> - Web Developer
+**<u>Kosal Cheykim</u>** - Web Developer
 - **[LinkedIn Profile](https://www.linkedin.com/in/kosal-cheykim-75484321b/)**
 - **[GitHub Repository](https://github.com/kcheykim)**
 
-<u>Howard Lin</u> - UI/UX Design/Research
+**<u>Howard Lin</u>** - UI/UX Design/Research
 - **[LinkedIn Profile](https://www.linkedin.com/in/howard-lin-069b10143/)**
 - **[Personal Portfolio](https://howieeedoit.wixsite.com/howardlindesign)**
