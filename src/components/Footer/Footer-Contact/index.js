@@ -1,6 +1,9 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-
+import { FaLinkedin } from 'react-icons/fa';
+import { ImInstagram, ImFacebook } from 'react-icons/im';
+import { MdEmail } from 'react-icons/md';
+import { BsTwitter } from 'react-icons/bs';
 
 const FooterContact = () => {
     return(
@@ -8,9 +11,14 @@ const FooterContact = () => {
             <h3>
                 <a href='/contact'>Contact Us</a>
             </h3>
-            <a href="" className="footer-link">LinkedIn</a><br/>
-            <a href="" className="footer-link">Instagram</a><br/>
-            <a href="" className="footer-link">ykbcoaching@gmail.com</a><br/>
+            <div>
+                <a href="" className="footer-icon"><FaLinkedin /></a>
+                <a href="" className="footer-icon"><ImInstagram /></a>
+                <a href="" className="footer-icon"><MdEmail /></a>
+                <a href="" className="footer-icon"><BsTwitter /></a>
+                <a href="" className="footer-icon"><ImFacebook /></a>
+
+            </div>
         </Col>
     );
 };
