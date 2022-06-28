@@ -34,6 +34,7 @@ The software is provided "as is", without warranty of any kind, express or impli
 - CSS React
 - React Bootstrap
 - React-Router-DOM
+- React Icons
 
 ## Installation
 
