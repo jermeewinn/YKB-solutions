@@ -34,7 +34,12 @@ function Contact() {
     // };
     function sendEmail(e) {
         e.preventDefault();
-
+    
+    //Will need to coordinate with Michael on setting up an EmailJS account. sendForm() will need 4 parameters:
+    //1) service name
+    //2) template ID
+    //3) e.target
+    //4) User ID Key
     emailjs.sendForm('')
         .then(function (response) {
             console.log('SUCESS!', response.status, response.test);
