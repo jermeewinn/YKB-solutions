@@ -45,21 +45,23 @@ function Contact() {
                     We'll go over your past experiences, what goals you want to achieve in the next year, and talk about resources and next steps for you to look over before working with us.
                 </p>
             </div>
-            <form id='contact-form' onSubmit={handleSubmit}>
-                <div className='my-2 flex-row'>
-                    <label htmlFor='name'>Name:</label>
-                    <input type='text' defaultValue={name} onChange={handleChange} name='name' />
-                </div>
-                <div className='my-2 flex-row'>
-                    <label htmlFor='email'>Email Address:</label>
-                    <input type='email' defaultValue={email} onChange={handleChange} name='email' />
-                </div>
-                <div className='my-2 flex-row'>
-                    <label htmlFor='message'>Message:</label>
-                    <textarea name='message' defaultValue={message} onChange={handleChange} rows='5' />
-                </div>
-                <button type='submit'>Submit</button>
-            </form>
+            <div className='contact-form'>
+                <form id='contact-form' onSubmit={handleSubmit}>
+                    <div className='my-2 flex-row'>
+                        <label htmlFor='name'>Name:</label><br/>
+                        <input type='text' defaultValue={name} onChange={handleChange} name='name' />
+                    </div>
+                    <div className='my-2 flex-row'>
+                        <label htmlFor='email'>Email Address:</label><br/>
+                        <input type='email' defaultValue={email} onChange={handleChange} name='email' />
+                    </div>
+                    <div className='my-2 flex-row'>
+                        <label htmlFor='message'>Message:</label><br/>
+                        <textarea name='message' defaultValue={message} onChange={handleChange} rows='5' />
+                    </div>
+                    <button type='submit'>Submit</button>
+                </form>
+            </div>
         </section>
     )
 };
