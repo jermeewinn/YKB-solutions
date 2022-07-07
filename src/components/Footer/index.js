@@ -4,6 +4,8 @@ import FooterServices from './Footer-Services';
 import FooterResources from './Footer-Resources';
 import FooterAbout from './Footer-About';
 import FooterContact from './Footer-Contact';
+import FooterHQ from './Footer-HQ';
+
 // NOTE TO SELF: Next time when implementing CSS Bootstrap for Col, Container, Row elements, just import whatever elements you need from
 // react-bootstrap npm package. Documentation for React-Bootstrap is unreliable. 
 
@@ -15,7 +17,8 @@ function Footer() {
                     <FooterServices />
                     <FooterResources />
                     <FooterAbout />
-                    <FooterContact />
+                    {/* <FooterContact /> */}
+                    <FooterHQ />
                 </Row>
             </Container>
             <h6 classname='copyright'>&copy;{new Date().getFullYear()} YKB Solutions Inc.</h6>
