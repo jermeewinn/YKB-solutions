@@ -90,3 +90,11 @@ h6 {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-label {
+  text-decoration: none;
+}

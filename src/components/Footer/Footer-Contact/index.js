@@ -9,7 +9,7 @@ const FooterContact = () => {
     return(
         <Col className="footer-column">
             <h3>
-                <a href='/contact'>Contact Us</a>
+                <a href='/contact' className='footer-label'>Contact Us</a>
             </h3>
             <div>
                 <a href="" className="footer-icon"><FaLinkedin /></a>

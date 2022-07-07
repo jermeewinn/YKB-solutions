@@ -7,7 +7,7 @@ const FooterAbout = () => {
     return(
         <Col className="footer-column">
             <h3>
-                <a href='/about'>About Us</a>
+                <a href='/about' className='footer-label'>About Us</a>
             </h3>
             <a href="" className="footer-link">Company</a><br/>
             <a href="" className="footer-link">Partnerships</a><br/>
