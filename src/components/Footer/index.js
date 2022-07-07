@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import FooterServices from './Footer-Services';
 import FooterResources from './Footer-Resources';
-import FooterCompany from './Footer-Company';
+import FooterAbout from './Footer-About';
 import FooterContact from './Footer-Contact';
 // NOTE TO SELF: Next time when implementing CSS Bootstrap for Col, Container, Row elements, just import whatever elements you need from
 // react-bootstrap npm package. Documentation for React-Bootstrap is unreliable. 
@@ -14,7 +14,7 @@ function Footer() {
                 <Row>
                     <FooterServices />
                     <FooterResources />
-                    <FooterCompany />
+                    <FooterAbout />
                     <FooterContact />
                 </Row>
             </Container>
