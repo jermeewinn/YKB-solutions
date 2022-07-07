@@ -13,11 +13,11 @@ function Footer() {
     return (
         <footer className='w=100 mt-auto bg-secondary p-4'>
             <Container className='container'>
+                <FooterContact />
                 <Row>
                     <FooterServices />
-                    <FooterResources />
                     <FooterAbout />
-                    {/* <FooterContact /> */}
+                    <FooterResources />
                     <FooterHQ />
                 </Row>
             </Container>
