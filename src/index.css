@@ -18,9 +18,12 @@ code {
   --spacing-five: calc(2.5rem);
 }
 
+.App {
+  background-color: #adb5bd;;
+}
+
 body {
   margin: 0;
-  background-color: #242729;
 }
 
 footer {

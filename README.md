@@ -29,12 +29,12 @@ The software is provided "as is", without warranty of any kind, express or impli
 
 ## Technologies Used
 
-- React.js
-- JavaScript
-- CSS React
-- React Bootstrap
-- React-Router-DOM
-- React Icons
+- [React.js](https://reactjs.org/)
+- [JavaScript](https://www.javascript.com/)
+- [CSS React](https://reactjs.org/docs/faq-styling.html)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [React-Router-DOM](https://v5.reactrouter.com/web/guides/quick-start)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 ## Installation
 
