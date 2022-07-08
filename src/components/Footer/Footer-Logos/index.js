@@ -7,6 +7,9 @@ import { BsTwitter } from 'react-icons/bs';
 const FooterLogos = () => {
     return(
         <div className="footer-logo-row">
+            {/* <div>
+                <hr/>
+            </div> */}
             <h3>
                 <a href="" className="footer-logo"><FaLinkedin /></a>&nbsp;
                 <a href="" className="footer-logo"><ImInstagram /></a>&nbsp;
@@ -14,6 +17,9 @@ const FooterLogos = () => {
                 <a href="" className="footer-logo"><BsTwitter /></a>&nbsp;
                 <a href="" className="footer-logo"><ImFacebook /></a>&nbsp;
             </h3>
+            {/* <div>
+                <hr/>
+            </div> */}
         </div>
     );
 };
