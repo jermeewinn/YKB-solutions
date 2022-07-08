@@ -1,5 +1,4 @@
 import React from 'react';
-import { Col } from 'react-bootstrap';
 import { FaLinkedin } from 'react-icons/fa';
 import { ImInstagram, ImFacebook } from 'react-icons/im';
 import { MdEmail } from 'react-icons/md';

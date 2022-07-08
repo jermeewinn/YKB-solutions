@@ -91,6 +91,12 @@ h6 {
   margin-top: 10px;
 }
 
+/* Footer Component Stylings */
+.footer-container {
+  position: static;
+  margin-bottom: 0
+}
+
 .copyright {
   color: white;
   margin-top: 40px;
@@ -112,31 +118,34 @@ h6 {
 
 .footer-logo-row {
   text-align: center;
-  margin: 25px 40px 75px;
+  margin: 25px 0px 75px;
   text-decoration: none;
- 
+  position: relative;
+  display: block
 }
 
 .footer-logo-row:before {
   content: "";
   display: block;
-  width: auto;
+  width: 40%;
   height: 2px;
-  background: #c3c2c2;
+  background: white;
   left: 0;
   top: 50%;
   position: absolute;
+  margin-right: 5px;
 }
 
 .footer-logo-row:after {
   content: "";
   display: block;
-  width: auto;
+  width: 40%;
   height: 2px;
-  background: #c3c2c2;
+  background: white;
   right: 0;
   top: 50%;
   position: absolute;
+  margin-left: 5px
 }
 
 .footer-logo {
