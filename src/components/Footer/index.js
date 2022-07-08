@@ -12,7 +12,7 @@ import FooterBottom from './Footer-Bottom'
 
 function Footer() {
     return (
-        <footer className='w=100 mt-auto bg-secondary p-4 footer-container'>
+        <footer className='w=100 mt-auto p-4'>
             <Container className='container'>
                 <FooterLogos />
                 <Row>
@@ -23,7 +23,6 @@ function Footer() {
                 </Row>
                 <FooterBottom />
             </Container>
-            
         </footer>
     );
 };
