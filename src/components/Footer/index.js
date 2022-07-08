@@ -21,7 +21,8 @@ function Footer() {
                     <FooterHQ />
                 </Row>
             </Container>
-            <h6 classname='copyright'>&copy;{new Date().getFullYear()} YKB Solutions Inc.</h6>
+            <h6 classname='copyright'>
+                &copy;{new Date().getFullYear()} YKB Solutions Inc.&nbsp;|&nbsp;Terms and Conditions&nbsp;|&nbsp;Privacy Policy&nbsp;|&nbsp;Disclosures</h6>
         </footer>
     );
 };
