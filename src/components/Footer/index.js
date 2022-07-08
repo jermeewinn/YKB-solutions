@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import FooterServices from './Footer-Services';
 import FooterResources from './Footer-Resources';
 import FooterAbout from './Footer-About';
-import FooterContact from './Footer-Contact';
+import FooterLogos from './Footer-Logos';
 import FooterHQ from './Footer-HQ';
 
 // NOTE TO SELF: Next time when implementing CSS Bootstrap for Col, Container, Row elements, just import whatever elements you need from
@@ -13,7 +13,7 @@ function Footer() {
     return (
         <footer className='w=100 mt-auto bg-secondary p-4'>
             <Container className='container'>
-                <FooterContact />
+                <FooterLogos />
                 <Row>
                     <FooterServices />
                     <FooterAbout />
