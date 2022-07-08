@@ -91,10 +91,50 @@ h6 {
   margin-top: 10px;
 }
 
+.footer-column {
+  color: white;
+}
+
 .footer-link {
   text-decoration: none;
+  color: white;
 }
 
 .footer-label {
   text-decoration: none;
+  color: white;
+}
+
+.footer-logo-row {
+  text-align: center;
+  margin: 25px 40px 75px;
+  text-decoration: none;
+ 
+}
+
+.footer-logo-row:before {
+  content: "";
+  display: block;
+  width: auto;
+  height: 2px;
+  background: #c3c2c2;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.footer-logo-row:after {
+  content: "";
+  display: block;
+  width: auto;
+  height: 2px;
+  background: #c3c2c2;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.footer-logo {
+  color: white;
+  margin: 10px 5px 10px
 }

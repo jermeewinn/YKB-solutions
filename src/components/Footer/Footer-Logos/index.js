@@ -7,16 +7,15 @@ import { BsTwitter } from 'react-icons/bs';
 
 const FooterLogos = () => {
     return(
-        <Col className="footer-column">
-            <div>
-                <a href="" className="footer-icon"><FaLinkedin /></a>&nbsp;
-                <a href="" className="footer-icon"><ImInstagram /></a>&nbsp;
-                <a href="" className="footer-icon"><MdEmail /></a>&nbsp;
-                <a href="" className="footer-icon"><BsTwitter /></a>&nbsp;
-                <a href="" className="footer-icon"><ImFacebook /></a>&nbsp;
-
-            </div>
-        </Col>
+        <div className="footer-logo-row">
+            <h3>
+                <a href="" className="footer-logo"><FaLinkedin /></a>&nbsp;
+                <a href="" className="footer-logo"><ImInstagram /></a>&nbsp;
+                <a href="" className="footer-logo"><MdEmail /></a>&nbsp;
+                <a href="" className="footer-logo"><BsTwitter /></a>&nbsp;
+                <a href="" className="footer-logo"><ImFacebook /></a>&nbsp;
+            </h3>
+        </div>
     );
 };
 
