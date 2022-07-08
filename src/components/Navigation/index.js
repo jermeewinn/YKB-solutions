@@ -19,6 +19,7 @@ import Testimonials from '../Testimonials';
 import Contact from '../Contact';
 import TermsAndConditions from '../Terms&Conditions';
 import PrivacyPolicy from '../PrivacyPolicy';
+import Disclosures from '../Disclosures';
 
 export default class Navigation extends Component {
     render() {
