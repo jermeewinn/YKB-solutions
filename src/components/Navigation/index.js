@@ -23,7 +23,7 @@ export default class Navigation extends Component {
         return (
             <Router>
                 <div>
-                    <Navbar bg='dark' expand='lg'>
+                    <Navbar bg='dark' variant='dark' expand='lg'>
                         <Container>
                             <Navbar.Brand as={Link} to="/" href="#home">YKB Coaching</Navbar.Brand>
                             <Navbar.Toggle aria-controls='navbarScroll' />
@@ -33,7 +33,6 @@ export default class Navigation extends Component {
                                     style={{ maxHeight: '100px' }}
                                     navbarScroll
                                 >
-                                    <Nav.Link as={Link} to="/">Home</Nav.Link>
                                     <Nav.Link as={Link} to="/about">About</Nav.Link>
                                     <Nav.Link as={Link} to="/services">Services</Nav.Link>
                                     <Nav.Link as={Link} to="/resources">Resources</Nav.Link>
