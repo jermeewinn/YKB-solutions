@@ -1,8 +1,6 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 
-
-
 const FooterAbout = () => {
     return(
         <Col className="footer-column">
