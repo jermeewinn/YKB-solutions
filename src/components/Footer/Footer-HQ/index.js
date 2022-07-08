@@ -7,15 +7,16 @@ const FooterHQ = () => {
             <h3>
                 Headquarters
             </h3>
+            <hr/>
             <div>
                 2400 East Katella Ave, Suite 725<br/>
                 Anaheim, CA 92806
             </div>
-            <br/>
+            <hr/>
             <div>
                 Office (111) 111-1111
             </div>
-            <br/>
+            <hr/>
             <div>
                 meisconsulting@gmail.com
             </div>

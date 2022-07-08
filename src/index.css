@@ -126,7 +126,7 @@ footer {
 
 hr {
   height: 2px;
-  justify-content: space-between;
+  width: 215px;
 }
 
 .footer-logo-row:before {
