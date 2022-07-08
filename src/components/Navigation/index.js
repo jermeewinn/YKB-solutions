@@ -17,6 +17,7 @@ import Services from '../Services';
 import Resources from '../Resources';
 import Testimonials from '../Testimonials';
 import Contact from '../Contact';
+import TermsAndConditions from '../Terms&Conditions';
 
 export default class Navigation extends Component {
     render() {
@@ -38,6 +39,7 @@ export default class Navigation extends Component {
                                     <Nav.Link as={Link} to="/resources">Resources</Nav.Link>
                                     <Nav.Link as={Link} to="/testimonials">Testimonials</Nav.Link>
                                     <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
@@ -55,7 +57,8 @@ export default class Navigation extends Component {
                         <Route path="/services" element={<Services />} />
                         <Route path="/resources" element={<Resources />} />                            
                         <Route path="/testimonials" element={<Testimonials />} />                            
-                        <Route path="/contact" element={<Contact />} />   
+                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />   
                     </Routes>
                 </div>
             </Router>
