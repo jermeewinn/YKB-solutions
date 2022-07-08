@@ -5,7 +5,7 @@ import FooterResources from './Footer-Resources';
 import FooterAbout from './Footer-About';
 import FooterLogos from './Footer-Logos';
 import FooterHQ from './Footer-HQ';
-
+import FooterBottom from './Footer-Bottom'
 
 // NOTE TO SELF: Next time when implementing CSS Bootstrap for Col, Container, Row elements, just import whatever elements you need from
 // react-bootstrap npm package. Documentation for React-Bootstrap is unreliable. 
@@ -22,7 +22,7 @@ function Footer() {
                     <FooterHQ />
                 </Row>
             </Container>
-            
+            <FooterBottom />
         </footer>
     );
 };
