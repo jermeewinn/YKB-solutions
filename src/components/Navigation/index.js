@@ -61,6 +61,7 @@ export default class Navigation extends Component {
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
                         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                        <Route path="/disclosures" element={<Disclosures />} />
                     </Routes>
                 </div>
             </Router>
