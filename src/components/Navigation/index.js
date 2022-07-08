@@ -18,6 +18,7 @@ import Resources from '../Resources';
 import Testimonials from '../Testimonials';
 import Contact from '../Contact';
 import TermsAndConditions from '../Terms&Conditions';
+import PrivacyPolicy from '../PrivacyPolicy';
 
 export default class Navigation extends Component {
     render() {
@@ -58,7 +59,8 @@ export default class Navigation extends Component {
                         <Route path="/resources" element={<Resources />} />                            
                         <Route path="/testimonials" element={<Testimonials />} />                            
                         <Route path="/contact" element={<Contact />} />
-                        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />   
+                        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+                        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     </Routes>
                 </div>
             </Router>

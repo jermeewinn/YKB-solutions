@@ -2,7 +2,7 @@ import React from 'react';
 
 const TermsAndConditions = () => {
     return(
-        <section id='termsAndConditions'>
+        <section id='terms-and-conditions'>
             <div>
                 <h1>Terms and Conditions</h1>
                 <p>
@@ -16,7 +16,7 @@ const TermsAndConditions = () => {
                 </p>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default TermsAndConditions;
