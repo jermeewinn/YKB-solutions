@@ -7,7 +7,7 @@ const FooterServices = () => {
             <h3>
                 <a href='/services' className='footer-label'>Services</a>
             </h3>
-            <hr/>
+            <hr className='footer-hr'/>
             <a href="" className="footer-link">Career Consulting</a><br/>
             <a href="" className="footer-link">Resume Revision</a><br/>
             <a href="" className="footer-link">Linkedin Review</a><br/>

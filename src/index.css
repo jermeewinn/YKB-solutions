@@ -100,6 +100,10 @@ footer {
   background: #212529;
 }
 
+.footer-hr {
+  width: 60%
+}
+
 .copyright {
   color: white;
   margin-top: 40px;
