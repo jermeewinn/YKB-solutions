@@ -90,6 +90,10 @@ If you are interested in contracting [Michael's](https://www.linkedin.com/in/mic
 - **[LinkedIn Profile](https://www.linkedin.com/in/kosal-cheykim-75484321b/)**
 - **[GitHub Repository](https://github.com/kcheykim)**
 
+**<u>Kaylin Boyle</u>** = Web Developer
+- **[LinkedIn Profile](https://www.linkedin.com/in/kaylin-n-boyle/)**
+- **[GitHub Repository](https://github.com/kaynboyle)**
+
 **<u>Howard Lin</u>** - UI/UX Design/Research
 - **[LinkedIn Profile](https://www.linkedin.com/in/howard-lin-069b10143/)**
 - **[Personal Portfolio](https://howieeedoit.wixsite.com/howardlindesign)**
