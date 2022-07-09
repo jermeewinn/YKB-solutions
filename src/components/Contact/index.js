@@ -13,9 +13,9 @@ function Contact() {
     // 2) template ID
     // 3) e.target
     // 4) User ID Key
-    emailjs.sendForm('')
+    emailjs.sendForm('ykb-coaching', 'template_vuwoqs8', e.target, 'm9o8PuJxaPH4CT67S')
         .then(function (response) {
-            console.log('SUCESS!', response.status, response.test);
+            console.log('SUCESS!', response.status, response.text);
         }, function (error) {
             console.log('FAILED...', error);
         });
@@ -38,20 +38,20 @@ function Contact() {
             </div>
             <div className='contact-form'>
                 <form id='contact-form' onSubmit={sendEmail}>
-                        <div className='my-2 flex-row'>
-                            <label htmlFor='name'>Name:</label><br/>
-                            <input type='text' name='name' />
-                        </div>
-                        <div className='my-2 flex-row'>
-                            <label htmlFor='email'>Email Address:</label><br/>
-                            <input type='email' name='email' />
-                        </div>
-                        <div className='my-2 flex-row'>
-                            <label htmlFor='message'>Message:</label><br/>
-                            <textarea name='message' rows='5' />
-                        </div>
-                        <button type='submit'>Submit</button>
-                    </form>
+                    <div className='my-2 flex-row'>
+                        <label htmlFor='name'>Name:</label><br/>
+                        <input type='text' name='name' />
+                    </div>
+                    <div className='my-2 flex-row'>
+                        <label htmlFor='email'>Email Address:</label><br/>
+                        <input type='email' name='email' />
+                    </div>
+                    <div className='my-2 flex-row'>
+                        <label htmlFor='message'>Message:</label><br/>
+                        <textarea name='message' rows='5' />
+                    </div>
+                    <button type='submit'>Submit</button>
+                </form>
             </div>
         </section>
     )
