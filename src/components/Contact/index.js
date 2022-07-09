@@ -1,45 +1,18 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import { validateEmail } from '../utils/helpers';
+// Need to find a way to implement valideateEmail function from ../utils/helpers.js
+// import { validateEmail } from '../utils/helpers';
 
 function Contact() {
-    // const [formState, setFormState] = useState({ name: '', email: '', message: ''});
-    // const { name, email, message } = formState;
-    // const [errorMessage, setErrorMessage] = useState('');
-    // // This will handle information validation. 
-    // // If we were to console.log(handleChange), it should be able to console log every keystroke.
-    // function handleChange(e) {
-    //     if (e.target.name === 'email') {
-    //         const isValid = validateEmail(e.target.value);
-    //         if (!isValid) {
-    //             setErrorMessage('Your email is invalid');
-    //         } else {
-    //             setErrorMessage('');
-    //         }
-    //     } else {
-    //         if (!e.target.value.length) {
-    //             setErrorMessage(`$${e.target.name} is required.`);
-    //         } else {
-    //             setErrorMessage('');
-    //         }
-    //     }
-    // };
-
-    // // This will handle submission of information from the contact form.
-    // function handleSubmit(e) {
-    //     e.preventDefault();
-    //     if (!errorMessage) {
-    //         setFormState({ ...formState, [e.target.name]: e.target.value });
-    //     };
-    // };
+    
     function sendEmail(e) {
         e.preventDefault();
     
-    //Will need to coordinate with Michael on setting up an EmailJS account. sendForm() will need 4 parameters:
-    //1) service name
-    //2) template ID
-    //3) e.target
-    //4) User ID Key
+    // Will need to coordinate with Michael on setting up an EmailJS account. sendForm() will need 4 parameters:
+    // 1) service name
+    // 2) template ID
+    // 3) e.target
+    // 4) User ID Key
     emailjs.sendForm('')
         .then(function (response) {
             console.log('SUCESS!', response.status, response.test);

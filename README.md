@@ -2,7 +2,7 @@
 
 YKB Solutions Inc. is a career consulting firm committed to helping people transition from one career track to another. YKB was founded by college-senior [Michael Mei](https://www.linkedin.com/in/michael-h-mei/) back in 2017 at UC Santa Cruz as campus-wide career services for students transitioning from school to early-career was limited in scope across campus. Today, YKB serves as a means for its clients to leave their dead-end jobs to build new careers for themselves.
 
-This GitHub repository is the official full-stack deployment of YKB Solutions' website using a React.js frontend and Mongo backend for data storage, all to be hosted on AWS servers.
+This GitHub repository is the official full-stack deployment of YKB Solutions' website using a React.js frontend and Mongo backend for data storage, all to be hosted on AWS servers. Email services are rendered through EmailJS.
 
 ## Table of Contents
 
@@ -32,9 +32,10 @@ The software is provided "as is", without warranty of any kind, express or impli
 - [React.js](https://reactjs.org/)
 - [JavaScript](https://www.javascript.com/)
 - [CSS React](https://reactjs.org/docs/faq-styling.html)
-- [React Bootstrap](https://react-bootstrap.github.io/)
+- [React Bootstrap](https://v5.reactrouter.com/web/guides/quick-start)
 - [React-Router-DOM](https://v5.reactrouter.com/web/guides/quick-start)
 - [React Icons](https://react-icons.github.io/react-icons/)
+- [EmailJS](https://www.emailjs.com/)
 
 ## Installation
 
