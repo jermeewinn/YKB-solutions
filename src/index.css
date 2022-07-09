@@ -126,7 +126,6 @@ footer {
   position: relative;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .footer-logo-content {
@@ -134,37 +133,9 @@ footer {
   padding-right: 5px;
 }
 
-hr {
+.logo-hr {
   color: white;
 }
-
-.hr {
-  /* width: 30%; */
-}
-
-/* .footer-logo-row:before {
-  content: "";
-  display: block;
-  width: 40%;
-  height: 1px;
-  background: white;
-  left: 0;
-  top: 50%;
-  position: absolute;
-  margin-right: 5px;
-} 
-
-.footer-logo-row:after {
-  content: "";
-  display: block;
-  width:  40%;
-  height: 1px;
-  background: white;
-  right: 0;
-  top: 50%;
-  position: absolute;
-  margin-left: 5px
-} */
 
 .footer-logo {
   color: white;
