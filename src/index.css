@@ -124,15 +124,25 @@ footer {
   margin: 25px 0px 75px;
   text-decoration: none;
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-logo-content {
+  padding-left: 20px;
+  padding-right: 5px;
 }
 
 hr {
-  height: 2px;
-  width: 215px;
+  color: white;
 }
 
-.footer-logo-row:before {
+.hr {
+  /* width: 30%; */
+}
+
+/* .footer-logo-row:before {
   content: "";
   display: block;
   width: 40%;
@@ -154,7 +164,7 @@ hr {
   top: 50%;
   position: absolute;
   margin-left: 5px
-}
+} */
 
 .footer-logo {
   color: white;
