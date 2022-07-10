@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import { Button } from 'react-bootstrap';
 // Need to find a way to implement valideateEmail function from ../utils/helpers.js
 // import { validateEmail } from '../utils/helpers';
 
@@ -36,21 +37,22 @@ function Contact() {
                     We'll go over your past experiences, what goals you want to achieve in the next year, and talk about resources and next steps for you to look over before working with us.
                 </p>
             </div>
+            {/* NOTE TO SELF: Be sure to change the email template on EmailJS's YKB account to enable the sending of respective fields. */}
             <div className='contact-form'>
                 <form id='contact-form' onSubmit={sendEmail}>
                     <div className='my-2 flex-row'>
-                        <label htmlFor='name'>Name:</label><br/>
-                        <input type='text' name='name' />
+                        {/* <label htmlFor='name'>Name:</label><br/> */}
+                        <input type='text' placeholder='Name' name='name' />
                     </div>
                     <div className='my-2 flex-row'>
-                        <label htmlFor='email'>Email Address:</label><br/>
-                        <input type='email' name='email' />
+                        {/* <label htmlFor='email'>Email Address:</label><br/> */}
+                        <input type='email' placeholder='Email Address' name='email' />
                     </div>
                     <div className='my-2 flex-row'>
-                        <label htmlFor='message'>Message:</label><br/>
-                        <textarea name='message' rows='5' />
+                        {/* <label htmlFor='message'>Message:</label><br/> */}
+                        <textarea  placeholder='Message' rows='5' name='message'/>
                     </div>
-                    <button type='submit'>Submit</button>
+                    <Button type='submit'>Submit</Button>
                 </form>
             </div>
         </section>
