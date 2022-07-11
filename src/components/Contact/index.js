@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Alert, Button } from 'react-bootstrap';
 // Need to find a way to implement valideateEmail function from ../utils/helpers.js
@@ -28,15 +28,22 @@ function Contact() {
     function sendEmail(e) {
         e.preventDefault();
     
-    emailjs.sendForm('ykb-coaching', 'template_vuwoqs8', e.target, 'm9o8PuJxaPH4CT67S')
+    emailjs
+        .sendForm(
+            'ykb-coaching', 
+            'template_vuwoqs8', 
+            e.target, 
+            'm9o8PuJxaPH4CT67S'
+        )
         .then(function (response) {
             console.log('SUCESS!', response.status, response.text);
+            setShow(true);
         }, function (error) {
             console.log('FAILED...', error);
         });
 
         e.target.reset();
-    }
+    };
 
     return(
         <section id='contact'>
