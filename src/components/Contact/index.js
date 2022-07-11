@@ -40,16 +40,13 @@ function Contact() {
             {/* NOTE TO SELF: Be sure to change the email template on EmailJS's YKB account to enable the sending of respective fields. */}
             <div className='contact-form'>
                 <form id='contact-form' onSubmit={sendEmail}>
-                    <div className='my-2 flex-row'>
-                        {/* <label htmlFor='name'>Name:</label><br/> */}
+                    <div className='my-2 flex-row contact-textarea'>
                         <input type='text' placeholder='Name' name='name' />
                     </div>
-                    <div className='my-2 flex-row'>
-                        {/* <label htmlFor='email'>Email Address:</label><br/> */}
+                    <div className='my-2 flex-row contact-textarea'>
                         <input type='email' placeholder='Email Address' name='email' />
                     </div>
-                    <div className='my-2 flex-row'>
-                        {/* <label htmlFor='message'>Message:</label><br/> */}
+                    <div className='my-2 flex-row contact-textarea'>
                         <textarea  placeholder='Message' rows='5' name='message'/>
                     </div>
                     <Button type='submit'>Submit</Button>

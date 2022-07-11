@@ -100,7 +100,9 @@ h6 {
   text-align: center;
   margin: auto;
   padding-bottom: 20px;
+  border:#212529
 }
+
 /* Footer Component Stylings */
 footer {
   position: static;
