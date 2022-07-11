@@ -18,14 +18,14 @@ const Product = ({ service }) => {
                 aria-labelledby='contained-modal-title-vcenter'
                 centered
             >
-                <Modal.Header closeButton>
+                <Modal.Header closeButton >
                     <Modal.Title id='contained-modal-title-vcenter'>
                         <img 
                             class='service-modal' 
                             src={require(`../../../assets/stockPhotos/${service.src}`)}
                             alt={service.alt}
                         />
-                    </Modal.Title>
+                    </Modal.Title >
                 </Modal.Header>
                 <Modal.Body>
                     <h4>

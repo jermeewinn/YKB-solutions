@@ -1,19 +1,33 @@
-import React from 'react';
+import { React, useState } from 'react';
 import emailjs from 'emailjs-com';
-import { Button } from 'react-bootstrap';
+import { Alert, Button } from 'react-bootstrap';
 // Need to find a way to implement valideateEmail function from ../utils/helpers.js
 // import { validateEmail } from '../utils/helpers';
 
 function Contact() {
-    
+    const [show, setShow] = useState(false)
+
+    //Code for Alert upon successful submission of contact-form.
+    function SuccessAlert() {
+        if (show) {
+            return(
+                <div className='contact-form-alert'>
+                    <Alert variant='success' onClose={() => setShow(false)} dismissible>
+                        <Alert.Heading>
+                            Email sent successfully!
+                        </Alert.Heading>
+                        <p>
+                            We'll be in touch shortly.
+                        </p>
+                    </Alert>
+                </div>
+            )
+        }
+    };
+    // Code to send emails via EmailJS
     function sendEmail(e) {
         e.preventDefault();
     
-    // Will need to coordinate with Michael on setting up an EmailJS account. sendForm() will need 4 parameters:
-    // 1) service name
-    // 2) template ID
-    // 3) e.target
-    // 4) User ID Key
     emailjs.sendForm('ykb-coaching', 'template_vuwoqs8', e.target, 'm9o8PuJxaPH4CT67S')
         .then(function (response) {
             console.log('SUCESS!', response.status, response.text);
