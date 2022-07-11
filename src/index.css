@@ -92,7 +92,15 @@ h6 {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-
+/* Contact Component Stylings */
+.contact-content {
+  text-align: center;
+}
+.contact-form {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
 /* Footer Component Stylings */
 footer {
   position: static;

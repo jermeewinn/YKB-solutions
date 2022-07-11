@@ -27,15 +27,15 @@ function Contact() {
     return(
         <section id='contact'>
             <h1 className='my-5'>Contact Us</h1>
-            <div>
-                <p>
-                    Got any questions? Reach out to us for a free hour consultation. 
-                </p>
-            </div>
-            <div>
-                <p>
-                    We'll go over your past experiences, what goals you want to achieve in the next year, and talk about resources and next steps for you to look over before working with us.
-                </p>
+            <div className='contact-content'>
+                <h3>
+                    Got any questions? Reach out to us for a free hour consultation.
+                </h3>
+                <div>
+                    <p>
+                        We'll go over your past experiences, what goals you want to achieve in the next year, and talk about resources and next steps for you to look over before working with us.
+                    </p>
+                </div>
             </div>
             {/* NOTE TO SELF: Be sure to change the email template on EmailJS's YKB account to enable the sending of respective fields. */}
             <div className='contact-form'>
