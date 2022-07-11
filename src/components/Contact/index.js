@@ -65,6 +65,7 @@ function Contact() {
                     </div>
                     <Button type='submit'>Submit</Button>
                 </form>
+                <SuccessAlert />
             </div>
         </section>
     )
