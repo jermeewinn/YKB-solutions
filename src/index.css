@@ -156,7 +156,7 @@ footer {
   padding-right: 5px;
 }
 
-.logo-hr {
+.footer-logo-hr {
   color: white;
 }
 
@@ -168,6 +168,7 @@ footer {
 /* Home Component Stylings */
 .home-logo {
   max-width: 200px;
+  max-height: 120px;
   margin-left: 40px;
   margin-right: 35px;
 }

@@ -7,7 +7,7 @@ import { BsTwitter } from 'react-icons/bs';
 const FooterLogos = () => {
     return(
         <div className="footer-logo-row flex-fill">
-            <div className="logo-hr flex-fill">
+            <div className="footer-logo-hr flex-fill">
                 <hr/>
             </div>
             <h3 className="footer-logo-content">
@@ -17,7 +17,7 @@ const FooterLogos = () => {
                 <a href="" className="footer-logo"><BsTwitter /></a>&nbsp;
                 <a href="" className="footer-logo"><ImFacebook /></a>&nbsp;
             </h3>
-            <div className="logo-hr flex-fill">
+            <div className="footer-logo-hr flex-fill">
                 <hr/>
             </div>
         </div>
