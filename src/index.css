@@ -164,3 +164,10 @@ footer {
   color: white;
   margin: 10px 5px 10px
 }
+
+/* Home Component Stylings */
+.home-logo {
+  max-width: 200px;
+  margin-left: 40px;
+  margin-right: 35px;
+}
