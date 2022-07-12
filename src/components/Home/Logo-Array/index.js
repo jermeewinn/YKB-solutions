@@ -4,6 +4,10 @@ import moss_adams from '../../../assets/logos/moss_adams.png';
 import bluevine from '../../../assets/logos/bluevine.png';
 import gridsme from '../../../assets/logos/gridsme.png';
 import pan from '../../../assets/logos/palo_alto_networks.png';
+import armis from '../../../assets/logos/armis.png';
+import alation from '../../../assets/logos/alation.png';
+import skedulo from '../../../assets/logos/skedulo.webp';
+import tai_software from '../../../assets/logos/tai_software.png';
 
 function LogoArray() {
     return(
@@ -23,7 +27,19 @@ function LogoArray() {
                     <img src={gridsme} alt='GridSME Capital Logo' className='home-logo' />
                 </a>
                 <a href='/testimonials'>
-                    <img src={pan} alt='GridSME Capital Logo' className='home-logo' />
+                    <img src={pan} alt='Palo Alto Networks Logo' className='home-logo' />
+                </a>
+                <a href='/testimonials'>
+                    <img src={armis} alt='Armis Security Logo' className='home-logo' />
+                </a>
+                <a href='/testimonials'>
+                    <img src={alation} alt='Alation Inc. Logo' className='home-logo' />
+                </a>
+                <a href='/testimonials'>
+                    <img src={skedulo} alt='Skedulo Logo' className='home-logo' />
+                </a>
+                <a href='/testimonials'>
+                    <img src={tai_software} alt='Tai Software Logo' className='home-logo' />
                 </a>
             </div>
         </container>
