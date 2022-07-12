@@ -170,21 +170,15 @@ footer {
   text-align: center;
 }
 
-.home-logo-background {
-  transition: 0.5s;
-  max-width: 120px;
-  max-height: 120px;
-}
-
 .home-logo {
   max-width: 200px;
   max-height: 120px;
   margin: 20px 40px;
-  transition: 0.5s;
+  transition: 0.3s;
   opacity: 1;
 }
 
 .home-logo:hover {
-  /* background-color: #797979; */
   opacity: 0.4;
+  transform: scale(1.05)
 }
