@@ -51,7 +51,7 @@ h2 {
   font-weight: bold;
   margin: 5px 0;
   line-height: 1.25;
-  color:#c3c2c2;
+  /* color:#c3c2c2; */
 }
 
 h3 {
@@ -166,9 +166,11 @@ footer {
 }
 
 /* Home Component Stylings */
+.home-logo-array {
+  text-align: center;
+}
 .home-logo {
   max-width: 200px;
   max-height: 120px;
-  margin-left: 40px;
-  margin-right: 35px;
+  margin: 20px 40px;
 }
