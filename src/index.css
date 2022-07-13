@@ -137,9 +137,19 @@ footer {
   color: white;
 }
 
+.footer-link:hover {
+  transition: 0.3s;
+  color: #cdcac6;
+}
+
 .footer-label {
   text-decoration: none;
   color: white;
+}
+
+.footer-label:hover {
+  transition: 0.3s;
+  color: #cdcac6
 }
 
 .footer-logo-row {
