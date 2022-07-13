@@ -1,8 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const TermsAndConditions = () => {
     return(
         <section id='terms-and-conditions'>
+            <div>
+                <Helmet>
+                    <title>YKB Coaching | Terms & Conditions</title>
+                </Helmet>
+            </div>
             <div>
                 <h1>Terms and Conditions</h1>
                 <p>
