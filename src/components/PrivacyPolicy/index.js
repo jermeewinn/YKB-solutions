@@ -4,11 +4,9 @@ import { Helmet } from 'react-helmet';
 const PrivacyPolicy = () => {
     return(
         <section id='privacy-policy'>
-            <div>
-                <Helmet>
-                    <title>YKB Coaching | Privacy Policy</title>
-                </Helmet>
-            </div>
+            <Helmet>
+                <title>YKB Coaching | Privacy Policy</title>
+            </Helmet>
             <h1>Privacy Policy</h1>
             <p>
                 1. GENERAL

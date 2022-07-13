@@ -7,11 +7,9 @@ export default class Home extends Component {
     render() {
         return(
             <section id='home'>
-                <div>
-                    <Helmet>
-                        <title>YKB Coaching | Home</title>
-                    </Helmet>
-                </div>
+                <Helmet>
+                    <title>YKB Coaching | Home</title>
+                </Helmet>
                 <Banner />
                 <LogoArray />
             </section>

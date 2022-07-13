@@ -49,11 +49,9 @@ function Contact() {
 
     return(
         <section id='contact'>
-            <div>
-                <Helmet>
-                    <title>YKB Coaching | Contact Us</title>
-                </Helmet>
-            </div>
+            <Helmet>
+                <title>YKB Coaching | Contact Us</title>
+            </Helmet>
             <h1 className='my-5'>Contact Us</h1>
             <div className='contact-content'>
                 <h3>

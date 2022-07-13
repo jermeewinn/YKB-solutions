@@ -5,11 +5,9 @@ import ServiceList from '../Services/ServiceList';
 function Services() {
     return(
         <section id='services'>
-            <div>
-                <Helmet>
-                    <title>YKB Coaching | Services</title>
-                </Helmet>
-            </div>
+            <Helmet>
+                <title>YKB Coaching | Services</title>
+            </Helmet>
             <div className='services-container'>
                 <h1 className='my-5'>Looking to Kickstart Your Career?</h1>
                 <h4>We'll get you started with a free consultation</h4>

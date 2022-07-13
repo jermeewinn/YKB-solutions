@@ -6,11 +6,9 @@ import profilePic from '../../assets/profilePics/Michael-Mei-pfp.jpg';
 function About() {
     return(
         <section id='about'>
-            <div>
-                <Helmet>
-                    <title>YKB Coaching | Who We Are</title>
-                </Helmet>
-            </div>
+            <Helmet>
+                <title>YKB Coaching | Who We Are</title>
+            </Helmet>
             <h1 className='my-5'>Who We Are</h1>
             <div id='sideByside'>
                 <div id='me-image'>
