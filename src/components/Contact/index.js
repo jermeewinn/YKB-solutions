@@ -29,10 +29,11 @@ function Contact() {
         e.preventDefault();
     
     emailjs
+        // Find a way to hide credential info in a config.json file.
         .sendForm(
             'ykb-coaching', 
             'template_vuwoqs8', 
-            e.target, 
+            e.target,
             'm9o8PuJxaPH4CT67S'
         )
         .then(function (response) {
