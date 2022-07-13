@@ -36,6 +36,7 @@ The software is provided "as is", without warranty of any kind, express or impli
 - [React-Router-DOM](https://v5.reactrouter.com/web/guides/quick-start)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [EmailJS](https://www.emailjs.com/)
+- [React Helmet](https://github.com/nfl/react-helmet)
 
 ## Installation
 
@@ -71,6 +72,7 @@ There are a few things we are planning on implementing into the web app:
 - Figure out a way to create dropdown menus from within the NavBar at the top of the page.
 - Figure out a way to refactor component file structure so that child components are less confusing to identify and associate with their parent components.
 - Figure out a way to implement react-router-dom so that navbar features are easily navigable at a glance, and that navbar can be styled using react-bootstrap node package components.
+- Show the user what page they are on via the tab title at the top of the web browser.
 
 ## Contact Us
 
