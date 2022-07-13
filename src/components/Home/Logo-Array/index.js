@@ -17,31 +17,31 @@ function LogoArray() {
         <container id='logo-array' className='home-logo-array'>
             <h2>Some companies our clients work at now</h2>
             <div>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={uc_davis} alt='UC Davis Logo' className='home-logo' />
                 </a>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={moss_adams} alt='Moss Adams Logo' className='home-logo' />
                 </a>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={bluevine} alt='BlueVine Capital Logo' className='home-logo' />
                 </a>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={gridsme} alt='GridSME Capital Logo' className='home-logo' />
                 </a>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={pan} alt='Palo Alto Networks Logo' className='home-logo' />
                 </a>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={armis} alt='Armis Security Logo' className='home-logo' />
                 </a>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={alation} alt='Alation Inc. Logo' className='home-logo' />
                 </a>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={skedulo} alt='Skedulo Logo' className='home-logo' />
                 </a>
-                <a href='/testimonials' className='home-logo-background'>
+                <a href='/testimonials'>
                     <img src={tai_software} alt='Tai Software Logo' className='home-logo' />
                 </a>
             </div>
