@@ -5,7 +5,7 @@ function Services() {
     return(
         <section id='services'>
             <div className='services-container'>
-                <h1>Looking to Kickstart Your Career?</h1>
+                <h1 className='my-5'>Looking to Kickstart Your Career?</h1>
                 <h4>We'll get you started with a free consultation</h4>
                 <div>
                     <p>The questions you'll need the answers for are:</p>

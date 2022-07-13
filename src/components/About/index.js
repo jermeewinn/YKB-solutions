@@ -5,7 +5,7 @@ import profilePic from '../../assets/profilePics/Michael-Mei-pfp.jpg';
 function About() {
     return(
         <section id='about'>
-            <h1 id='about'>Who We Are</h1>
+            <h1 className='my-5'>Who We Are</h1>
             <div id='sideByside'>
                 <div id='me-image'>
                     <img id='Michael' src={profilePic} className='my-2' alt='portrait-Michael' />
