@@ -10,6 +10,8 @@ import skedulo from '../../../assets/logos/skedulo.webp';
 import tai_software from '../../../assets/logos/tai_software.png';
 
 //NOTE TO SELF: See if there's a more efficient way of creating the logo-array while keeping the styling we have.
+//NOTE TO SELF: Because the some of the logos utilize a variety of grayscales, we will need to ensure that the background color
+// for LogoArray() remains at hex color value: #adb5bd.
 function LogoArray() {
     return(
         <container id='logo-array' className='home-logo-array'>
