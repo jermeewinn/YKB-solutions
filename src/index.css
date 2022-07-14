@@ -176,9 +176,20 @@ footer {
 }
 
 /* Home Component Stylings */
-/* .home-banner {
+.home-banner {
+  height: 88vh;
+  display: flex;
+  background: red;
+  overflow: hidden;
+}
 
-} */
+.home-banner-curve {
+  height: 100%;
+  width: 100%;
+  background: grey;
+  border-radius: 45px;
+  transform: translate(50px, 120px);
+}
 
 .home-logo-array {
   text-align: center;
