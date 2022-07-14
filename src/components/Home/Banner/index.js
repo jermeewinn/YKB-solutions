@@ -1,4 +1,5 @@
 import React from 'react';
+import Working from '../../../assets/stockPhotos/Working.jpg';
 
 function Banner() {
     return(
@@ -6,11 +7,11 @@ function Banner() {
             <div className='home-banner-left'>
                 <div className='home-banner-text'>
                     <h1 className='my-5'>Don't Live to Work. Work to Live.</h1>
-                    <h5 className='my-5'>Whether you're graduating from college, or have been in the workforce for awhile, we'll help with the transition.</h5>
+                    <h5 className='my-5 home-banner-subtext'>Work with us and we'll work with you.</h5>
                 </div>
             </div>
             <div></div>
-            <div className='home-banner-right'></div>
+            <div className='home-banner-right' style={{ backgroundImage: `url(${Working})`}}></div>
         </container>
     )
 }
