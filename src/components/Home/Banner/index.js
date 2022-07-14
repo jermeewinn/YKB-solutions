@@ -10,7 +10,6 @@ function Banner() {
                     <h5 className='my-5 home-banner-subtext'>Work with us and we'll work with you.</h5>
                 </div>
             </div>
-            {/* <div></div> */}
             <div className='home-banner-right' 
             style={{ 
                 backgroundImage: `url(${Working})`,
