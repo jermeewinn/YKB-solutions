@@ -175,6 +175,11 @@ footer {
   margin: 10px 5px 10px
 }
 
+.footer-logo:hover {
+  transition: 0.3s;
+  color: #a7a7a7;
+}
+
 /* Home Component Stylings */
 .home-banner {
   /* height: 88vh; */
@@ -198,7 +203,6 @@ footer {
   border-radius: 45px;
   transform: translate(50px, 120px);
 }
-
 
 .home-banner-text {
   color: white;
