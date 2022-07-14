@@ -85,7 +85,7 @@ If you are interested in contracting [Michael's](https://www.linkedin.com/in/mic
 **<u>Michael Mei</u>** - Project Manager
 - **[Linkedin Profile](https://www.linkedin.com/in/michael-h-mei/)**
 
-**<u>Jeremy Huynh</u>** - Lead Web Developer
+**<u>Jeremy Huynh</u>** - Web Developer
 - **[LinkedIn Profile](https://www.linkedin.com/in/jeremy-huynh/)**
 - **[GitHub Repository](https://github.com/jermeewinn)**
 
@@ -93,7 +93,7 @@ If you are interested in contracting [Michael's](https://www.linkedin.com/in/mic
 - **[LinkedIn Profile](https://www.linkedin.com/in/kosal-cheykim-75484321b/)**
 - **[GitHub Repository](https://github.com/kcheykim)**
 
-**<u>Kaylin Boyle</u>** = Web Developer
+**<u>Kaylin Boyle</u>** - Web Developer
 - **[LinkedIn Profile](https://www.linkedin.com/in/kaylin-n-boyle/)**
 - **[GitHub Repository](https://github.com/kaynboyle)**
 
