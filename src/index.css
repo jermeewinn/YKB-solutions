@@ -177,39 +177,48 @@ footer {
 
 /* Home Component Stylings */
 .home-banner {
-  height: 88vh;
+  /* height: 88vh; */
+  height: 500px;
   display: flex;
   background: #4E4F4F;
   overflow: hidden;
 }
 
-.home-banner-text {
-  color: white;
-  /* max-width: 240px */
-  margin: auto;
-  margin-top: 160px
-}
-
-.home-banner-subtext {
-  max-width: 280px;
-  margin: auto;
-}
-
 .home-banner-left {
-  max-width: auto;
-  margin-left: 20%;
-  margin-right: 20%;
+  max-width: 45%;
+  margin-left: 15%;
+  margin-right: 10%;
 }
 
 .home-banner-right {
   height: 100%;
   width: 100%;
-  /* margin-left: 200px; */
+  /* margin-left: 200px; **Keep this in for Michael to decide*/
   margin-right: 0px;
-
   border-radius: 45px;
   transform: translate(50px, 120px);
 }
+
+
+.home-banner-text {
+  color: white;
+  font-size: 128;
+  width: 440px;
+  margin: auto;
+  margin-top: 160px
+}
+
+.home-banner-title {
+  font-size: 3rem;
+  align-items: center;
+}
+
+.home-banner-subtext {
+  margin: auto;
+  margin-left: 0px;
+  align-content: left;
+}
+
 
 .home-logo-array {
   text-align: center;
