@@ -196,15 +196,17 @@ footer {
 }
 
 .home-banner-left {
-  max-width: 460px;
-  margin-left: 40px;
-  margin-right: 40px;
+  max-width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .home-banner-right {
   height: 100%;
   width: 100%;
-  /* background-color: #adb5bd; */
+  /* margin-left: 200px; */
+  margin-right: 0px;
+
   border-radius: 45px;
   transform: translate(50px, 120px);
 }
