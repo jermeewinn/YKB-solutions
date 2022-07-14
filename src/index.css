@@ -19,7 +19,7 @@ code {
 }
 
 .App {
-  background-color: #adb5bd;;
+  background-color: #adb5bd;
 }
 
 body {
@@ -179,14 +179,28 @@ footer {
 .home-banner {
   height: 88vh;
   display: flex;
-  background: red;
+  background: #4E4F4F;
   overflow: hidden;
 }
 
-.home-banner-curve {
+.home-banner-text {
+  color: white;
+  /* max-width: 240px */
+  margin: auto;
+  margin-top: 160px
+}
+
+.home-banner-left {
+  max-width: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.home-banner-right {
   height: 100%;
   width: 100%;
-  background: grey;
+  /* background-image: url('/src/assets/stockPhotos/Interview.jpg'); */
+  background-color: #adb5bd;
   border-radius: 45px;
   transform: translate(50px, 120px);
 }
