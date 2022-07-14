@@ -196,7 +196,7 @@ footer {
 }
 
 .home-banner-left {
-  max-width: 400px;
+  max-width: 460px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -204,7 +204,6 @@ footer {
 .home-banner-right {
   height: 100%;
   width: 100%;
-  /* background-image: url('/src/assets/stockPhotos/Interview.jpg'); */
   /* background-color: #adb5bd; */
   border-radius: 45px;
   transform: translate(50px, 120px);

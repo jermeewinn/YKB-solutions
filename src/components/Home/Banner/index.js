@@ -11,7 +11,9 @@ function Banner() {
                 </div>
             </div>
             <div></div>
-            <div className='home-banner-right' style={{ backgroundImage: `url(${Working})`}}></div>
+            <div className='home-banner-right' 
+            style={{ backgroundImage: `url(${Working})`}}
+            ></div>
         </container>
     )
 }

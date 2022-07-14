@@ -73,6 +73,7 @@ There are a few things we are planning on implementing into the web app:
 - Figure out a way to refactor component file structure so that child components are less confusing to identify and associate with their parent components.
 - Figure out a way to implement react-router-dom so that navbar features are easily navigable at a glance, and that navbar can be styled using react-bootstrap node package components.
 - Show the user what page they are on via the tab title at the top of the web browser.
+- Figure out a way to render the Home banner image without having a the image repeat on bigger screens.
 
 ## Contact Us
 
