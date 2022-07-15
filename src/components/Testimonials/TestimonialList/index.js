@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import Review from '../Review';
+import { Card, Row, Col, Container} from 'react-bootstrap';
+
 
 const TestimonialList = ({ tech }) => {
     const [clients] = useState([
         {
             name: 'Allen Wang',
-            src: 'Allen-Wang-pfp.jpg',
+            image: 'Allen-Wang-pfp.jpg',
             title: 'Full-Stack Software Developer',
             company: 'Tai Software',
             link: 'https://www.linkedin.com/in/allenc-wang/',
@@ -14,7 +16,7 @@ const TestimonialList = ({ tech }) => {
         },
         {
             name: 'Jeremy Huynh',
-            src: 'Jeremy-Huynh-pfp.jpg',
+            image: 'Jeremy-Huynh-pfp.jpg',
             title: 'Freelance Full-Stack Software Developer',
             company: 'Self-employed',
             link: 'https://www.linkedin.com/in/jeremy-huynh/',
@@ -22,7 +24,7 @@ const TestimonialList = ({ tech }) => {
         },
         {
             name: 'Kristy Tran',
-            src: 'Kristy-Tran-pfp.jpg',
+            image: 'Kristy-Tran-pfp.jpg',
             title: 'Desktop Support Specialist',
             company: 'Palo Alto Networks',
             link: 'https://www.linkedin.com/in/kristytran24/',
@@ -30,7 +32,7 @@ const TestimonialList = ({ tech }) => {
         },
         {
             name: 'Sonia Yu',
-            src: 'Sonia-Yu-pfp.jpg',
+            image: 'Sonia-Yu-pfp.jpg',
             title: 'Cybersecurity Consultant',
             company: 'Moss Adams',
             link: 'https://www.linkedin.com/in/sonia-yu/',
@@ -38,7 +40,7 @@ const TestimonialList = ({ tech }) => {
         },
         {
             name: 'Therese Nguyen',
-            src: 'Therese-Nguyen-pfp.jpg',
+            image: 'Therese-Nguyen-pfp.jpg',
             title: 'Master Scheduler',
             company: 'Gener8',
             link: 'https://www.linkedin.com/in/theresen/',
@@ -47,13 +49,21 @@ const TestimonialList = ({ tech }) => {
     ]);
 
     return(
-        <div>
-            <div className='flex-row'>
+        <Container className='testimonial-container'>
+            <Row className='flex-row'>
                 {clients.map((client, i) => (
-                    <Review client={client} />
+                    <Col className='testimonial-column' xs={12} md={6} lg={3}>
+                        <Card className='testimonial-card'>
+                            <Card.Img variant='left' src={require(`../../../assets/profilePics/${client.image}`)} />
+                            <Card.Body>
+                                <Card.Title>{client.name}</Card.Title>
+                                <Card.Text>{client.description}</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 ))}
-            </div>
-        </div>
+            </Row>
+        </Container>
     )
 };
 
