@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
-import Banner from '../Home/Banner';
-import LogoArray from '../Home/Logo-Array';
+import Banner from './Home-Banner';
+import Hexagons from './Home-Hexagons';
+import LogoArray from './Home-Logo-Array';
+
 
 export default class Home extends Component {
     render() {
@@ -11,6 +13,7 @@ export default class Home extends Component {
                     <title>YKB Coaching | Home</title>
                 </Helmet>
                 <Banner />
+                <Hexagons />
                 <LogoArray />
             </section>
         )

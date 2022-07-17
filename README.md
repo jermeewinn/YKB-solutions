@@ -37,6 +37,7 @@ The software is provided "as is", without warranty of any kind, express or impli
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [EmailJS](https://www.emailjs.com/)
 - [React Helmet](https://github.com/nfl/react-helmet)
+- [React Hexagons](https://www.npmjs.com/package/react-hexagon)
 
 ## Installation
 
