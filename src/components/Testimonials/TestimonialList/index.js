@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Review from '../Review';
-import { Card, Row, Col, Container} from 'react-bootstrap';
-
+//import Review from '../Review';
+import {Card, Row, Col, Container, Cover} from 'react-bootstrap';
+import Image from 'react-image-resizer';
 
 const TestimonialList = ({ tech }) => {
     const [clients] = useState([
@@ -54,10 +54,10 @@ const TestimonialList = ({ tech }) => {
                 {clients.map((client, i) => (
                     <Col className='testimonial-column' xs={12} md={6} lg={3}>
                         <Card className='testimonial-card'>
-                            <Card.Img variant='left' src={require(`../../../assets/profilePics/${client.image}`)} />
+                            <Card.Header></Card.Header>
+                            <Card.Img resizeMode={'cover'} height-max={50} className='testimonial-img' src={require(`../../../assets/profilePics/${client.image}`)} />
                             <Card.Body>
-                                <Card.Title>{client.name}</Card.Title>
-                                <Card.Text>{client.description}</Card.Text>
+                                <Card.Title as='h5'>{client.name}</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>

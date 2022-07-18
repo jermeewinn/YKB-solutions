@@ -76,23 +76,11 @@ h6 {
   text-align: center;
 }
 
-.service-card {
-  margin-bottom: 20px;
-  margin-top: 10px;
-  align-items: stretch;
-}
-
-.testimonial-container {
-  border-radius: 1%;
-  height: 100%;
-  align-items: stretch;
-}
-
 .testimonial-card {
-  background: radial-gradient(circle, rgba(7,59,93,1) 0%, rgba(42,129,118,1) 100%);
+  background: radial-gradient(circle, rgb(248, 250, 252) 0%, rgb(53, 56, 55) 100%);
   color:white;
   padding: 10px;
-  margin: 20px 0 20px 0;
+  margin: 10px 0 10px 0;
   align-content: space-around;
   min-height: 50px;
   height: 100%;
@@ -100,4 +88,11 @@ h6 {
 
 .testimonial-column {
   padding: 10px;
+  margin-bottom: 5%;
+}
+
+.testimonial-img {
+  height: 350px;
+  width: auto;
+  object-fit: cover;
 }
