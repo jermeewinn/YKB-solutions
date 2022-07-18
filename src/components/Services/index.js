@@ -1,11 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import ServiceList from '../Services/ServiceList';
 
 function Services() {
     return(
         <section id='services'>
+            <Helmet>
+                <title>YKB Coaching | Services</title>
+            </Helmet>
             <div className='services-container'>
-                <h1>Looking to Kickstart Your Career?</h1>
+                <h1 className='my-5'>Looking to Kickstart Your Career?</h1>
                 <h4>We'll get you started with a free consultation</h4>
                 <div>
                     <p>The questions you'll need the answers for are:</p>
@@ -23,11 +27,12 @@ function Services() {
                 </div>
             </div>
             <div className='services-container'>
-                <h1>Our customers want to make changes in their careers. <br />We give them the tools to achieve that.</h1>
+                <h1>Our customers want to make changes in their careers.</h1>
+                <h4>We give them the tools to achieve that.</h4>
                 <ServiceList />
-            </div>
-            
+            </div>            
         </section>
     );
 };
+
 export default Services;
