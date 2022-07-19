@@ -224,6 +224,17 @@ footer {
   align-content: left;
 }
 
+.home-hexagon-styled {
+  width: 140px;
+  margin-left: 25px;
+  min-width: 100px;
+  max-width: 250px;
+}
+
+.home-hex-row {
+  margin-bottom: -10px;
+}
+
 .home-logo-array {
   text-align: center;
 }
