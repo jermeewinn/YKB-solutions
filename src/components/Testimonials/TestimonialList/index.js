@@ -55,6 +55,8 @@ const TestimonialList = ({ tech }) => {
                     <Col className='testimonial-column' xs={12} md={6} lg={3}>
                         <Card 
                             className='testimonial-card'
+                            // NOTE TO KAYLIN: For some reason, the background-color property doesn't work in index.css 
+                            // so we had to hard-code the style here.
                             style={{ backgroundColor: '#5b5b5b' }} 
                         >
                             <Card.Header></Card.Header>
