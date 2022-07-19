@@ -53,7 +53,10 @@ const TestimonialList = ({ tech }) => {
             <Row className='flex-row'>
                 {clients.map((client, i) => (
                     <Col className='testimonial-column' xs={12} md={6} lg={3}>
-                        <Card className='testimonial-card'>
+                        <Card 
+                            className='testimonial-card'
+                            style={{ backgroundColor: '#5b5b5b' }} 
+                        >
                             <Card.Header></Card.Header>
                             <Card.Img resizeMode={'cover'} height-max={50} className='testimonial-img' src={require(`../../../assets/profilePics/${client.image}`)} />
                             <Card.Body>

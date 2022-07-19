@@ -251,7 +251,7 @@ footer {
 }
 
 .testimonial-card {
-  background-color: gray;
+  /* background-color: radial-gradient(circle, rgb(248, 250, 252) 0%, rgb(53, 56, 55) 100%); */
   color:white;
   padding: 10px;
   margin: 10px 0 10px 0;
