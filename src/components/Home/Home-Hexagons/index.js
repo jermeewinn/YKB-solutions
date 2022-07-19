@@ -4,53 +4,55 @@ import Hexagon from 'react-hexagon';
 function Hexagons() {
     return(
         <container>
-            <div id='root' className='hex-row d-flex justify-content-center'>
-                <Hexagon
-                    className='hexagon-styled'
-                    style={{ 
-                        stroke: 'black',
-                    }}
-                />
-                <Hexagon
-                    className='hexagon-styled'
-                    style={{ 
-                        stroke: 'black',
-                    }}
-                />
-            </div>
-            <div className='hex-row d-flex justify-content-center'>
-                <Hexagon
-                    className='hexagon-styled'
-                    style={{ 
-                        stroke: 'black',
-                    }}
-                />
-                <Hexagon
-                    className='hexagon-styled'
-                    style={{ 
-                        stroke: 'white',
-                    }}
-                />
-                <Hexagon
-                    className='hexagon-styled'
-                    style={{ 
-                        stroke: 'black',
-                    }}                    
-                />
-            </div>
-            <div className=' hex-row d-flex justify-content-center'>
-                <Hexagon
-                    className='hexagon-styled'
-                    style={{ 
-                        stroke: 'black',
-                    }}                    
-                />
-                <Hexagon
-                    className='hexagon-styled'
-                    style={{ 
-                        stroke: 'black',
-                    }}
-                />
+            <div className='home-hex-left'>
+                <div id='root' className='home-hex-row d-flex justify-content-center'>
+                    <Hexagon
+                        className='home-hexagon-styled'
+                        style={{
+                            stroke: 'black',
+                        }}
+                    />
+                    <Hexagon
+                        className='home-hexagon-styled'
+                        style={{
+                            stroke: 'black',
+                        }}
+                    />
+                </div>
+                <div className='home-hex-row d-flex justify-content-center'>
+                    <Hexagon
+                        className='home-hexagon-styled'
+                        style={{
+                            stroke: 'black',
+                        }}
+                    />
+                    <Hexagon
+                        className='home-hexagon-styled'
+                        style={{
+                            stroke: '#adb5bd',
+                        }}
+                    />
+                    <Hexagon
+                        className='home-hexagon-styled'
+                        style={{
+                            stroke: 'black',
+                        }}
+                    />
+                </div>
+                <div className='home-hex-row d-flex justify-content-center'>
+                    <Hexagon
+                        className='home-hexagon-styled'
+                        style={{
+                            stroke: 'black',
+                        }}
+                    />
+                    <Hexagon
+                        className='home-hexagon-styled'
+                        style={{
+                            stroke: 'black',
+                        }}
+                    />
+                </div>
             </div>
         </container>
     );
