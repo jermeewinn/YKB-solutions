@@ -243,6 +243,7 @@ footer {
 
 }
 
+/* code for testimonials */
 .testimonial-container {
   border-radius: 1%;
   height: 100%;
@@ -250,7 +251,7 @@ footer {
 }
 
 .testimonial-card {
-  background: radial-gradient(circle, rgb(248, 250, 252) 0%, rgb(53, 56, 55) 100%);
+  background-color: gray;
   color:white;
   padding: 10px;
   margin: 10px 0 10px 0;

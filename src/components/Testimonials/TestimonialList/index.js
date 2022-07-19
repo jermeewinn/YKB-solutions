@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 //import Review from '../Review';
 import {Card, Row, Col, Container, Cover} from 'react-bootstrap';
-import Image from 'react-image-resizer';
+
 
 const TestimonialList = ({ tech }) => {
     const [clients] = useState([
