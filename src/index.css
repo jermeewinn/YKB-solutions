@@ -224,7 +224,6 @@ footer {
   align-content: left;
 }
 
-
 .home-logo-array {
   text-align: center;
 }
@@ -240,7 +239,6 @@ footer {
 .home-logo:hover {
   opacity: 0.4;
   transform: scale(1.05)
-
 }
 
 /* Testimonial Component Stylings*/
