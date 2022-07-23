@@ -53,7 +53,7 @@ const Product = ({ service }) => {
             >
                 <Card.Img 
                     variant='top' 
-                    src={require(`../../../assets/stockPhotos/${service.src}`)}
+                    src={require(`../../../assets/profilePics/${service.src}`)}
                     alt={service.alt} 
                 />
                 <Card.Body>

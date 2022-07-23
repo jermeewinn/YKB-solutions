@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 //import Review from '../Review';
-import {Card, Row, Col, Container, Cover} from 'react-bootstrap';
+import {Card, Row, Col, Container, Cover, Modal, Button} from 'react-bootstrap';
 
 
 const TestimonialList = ({ tech }) => {
+
+    const [modalShow, setModalShow] = React.useState(false);
+
     const [clients] = useState([
         {
             name: 'Allen Wang',
@@ -48,11 +51,50 @@ const TestimonialList = ({ tech }) => {
         }
     ]);
 
+    function TestimonialModal(props){
+
+        return(
+            <Modal
+                {...props}
+                size='lg'
+                aria-labelledby='contained-modal-title-vcenter'
+                centered
+            >
+                <Modal.Header closeButton >
+                    <Modal.Title id='contained-modal-title-vcenter'>
+                        <img 
+                            class='service-modal' 
+                            src={require(`../../../assets/profilePics/Allen-Wang-pfp.jpg`)}
+                            alt="yo"
+                        />
+                    </Modal.Title >
+                </Modal.Header>
+                <Modal.Body>
+                    <h4>
+                        Name
+                    </h4>
+                    <p>
+                        description
+                    </p>
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button onClick={props.onHide}>Close</Button>
+                </Modal.Footer>
+            </Modal>
+        )
+    }
+    
     return(
         <Container className='testimonial-container'>
             <Row className='flex-row'>
                 {clients.map((client, i) => (
                     <Col className='testimonial-column' xs={12} md={6} lg={3}>
+                          <Button 
+                            variant='secondary' 
+                            onClick={() => setModalShow(true)} 
+                            style={{ width: '18rem' }} 
+                            className='service-card' 
+                            >
                         <Card 
                             className='testimonial-card'
                             // NOTE TO KAYLIN: For some reason, the background-color property doesn't work in index.css 
@@ -64,7 +106,14 @@ const TestimonialList = ({ tech }) => {
                             <Card.Body>
                                 <Card.Title as='h5'>{client.name}</Card.Title>
                             </Card.Body>
-                        </Card>
+                          
+                            
+                            </Card>
+                        </Button>
+                        <TestimonialModal 
+                        show={modalShow} 
+                        onHide={() => setModalShow(false)}
+                        />
                     </Col>
                 ))}
             </Row>
