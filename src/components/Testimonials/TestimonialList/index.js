@@ -13,6 +13,8 @@ import {
 import "./style.css";
 
 const TestimonialList = ({ tech }) => {
+    // useState modalClient takes in the information on which client is clicked and takes that information in in order to populate the modal with////
+    /// if it is false (no client is clicked yet you are still on the main page) there is an if then statment in the modal section preventing errors in that case
   const [modalClient, setModalClient] = useState();
 
   const [clients] = useState([
@@ -91,6 +93,7 @@ const TestimonialList = ({ tech }) => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
+        {/* mocalClient is defined in a useState at the top, this line makes sure that modal client isn't undefined */}
           {modalClient !== undefined && (
             <>
               <img
@@ -156,6 +159,7 @@ const TestimonialList = ({ tech }) => {
               </Card>
             </Button>
             <TestimonialModal
+            //here when we show the modal the modalClient is no longer undefined
               show={modalClient !== undefined}
               onHide={() => setModalClient(undefined)}
             />
