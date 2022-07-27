@@ -1,0 +1,7 @@
+.testimonials-modal-flexbox{
+    display: flex;
+    flex-direction: row;
+}
+.testimonials-linkedin-icon{
+    margin-left: 15px;
+}
