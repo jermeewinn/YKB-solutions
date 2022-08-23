@@ -6,12 +6,15 @@ function Hexagons() {
         <container>
             <div className='home-hex-left'>
                 <div id='root' className='home-hex-row d-flex justify-content-center'>
-                    <Hexagon
+                <Hexagon
                         className='home-hexagon-styled'
                         style={{
                             stroke: 'black',
                         }}
-                    />
+                    >
+                        <text className='home-hex-text' x='25%' y='45%'>Resume</text>
+                        <text className='home-hex-text' x='27%' y='60%'>Review</text>
+                    </Hexagon>
                     <Hexagon
                         className='home-hexagon-styled'
                         style={{
