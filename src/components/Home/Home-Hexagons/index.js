@@ -3,8 +3,9 @@ import Hexagon from 'react-hexagon';
 
 function Hexagons() {
     return(
-        <container>
-            <div className='home-hex-left'>
+        <div id='hexagon-ring' className='home-services'>
+            <h2>How We Can Help</h2>
+            <div className='home-hex-ring'>
                 <div id='root' className='home-hex-row d-flex justify-content-center'>
                     <Hexagon
                         className='home-hexagon-styled'
@@ -73,7 +74,7 @@ function Hexagons() {
                     </Hexagon>
                 </div>
             </div>
-        </container>
+        </div>
     );
 };
 

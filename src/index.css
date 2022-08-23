@@ -224,6 +224,16 @@ footer {
   align-content: left;
 }
 
+.home-services {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.home-hex-ring {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .home-hexagon-styled {
   width: 100px;
   margin-left: 25px;
