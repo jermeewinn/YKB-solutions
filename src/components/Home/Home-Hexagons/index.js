@@ -6,7 +6,7 @@ function Hexagons() {
         <container>
             <div className='home-hex-left'>
                 <div id='root' className='home-hex-row d-flex justify-content-center'>
-                <Hexagon
+                    <Hexagon
                         className='home-hexagon-styled'
                         style={{
                             stroke: 'black',
@@ -20,7 +20,10 @@ function Hexagons() {
                         style={{
                             stroke: 'black',
                         }}
-                    />
+                    >
+                        <text className='home-hex-text' x='22%' y='45%'>LinkedIn</text>
+                        <text className='home-hex-text' x='22%' y='60%'>Revision</text>
+                    </Hexagon>
                 </div>
                 <div className='home-hex-row d-flex justify-content-center'>
                     <Hexagon
@@ -28,11 +31,15 @@ function Hexagons() {
                         style={{
                             stroke: 'black',
                         }}
-                    />
+                    >
+                        <text className='home-hex-text' x='27%' y='45%'>Career</text>
+                        <text className='home-hex-text' x='17%' y='60%'>Consulting</text>
+                    </Hexagon>
+                    {/* NOTE TO SELF: If you want to change the stroke color to a hex key value, be sure to use ` instead of '. */}
                     <Hexagon
                         className='home-hexagon-styled'
                         style={{
-                            stroke: '#adb5bd',
+                            stroke: `#adb5bd`,
                         }}
                     />
                     <Hexagon
@@ -40,7 +47,10 @@ function Hexagons() {
                         style={{
                             stroke: 'black',
                         }}
-                    />
+                    >
+                        <text className='home-hex-text' x='25%' y='45%'>Interview</text>
+                        <text className='home-hex-text' x='35%' y='60%'>Prep</text>
+                    </Hexagon>
                 </div>
                 <div className='home-hex-row d-flex justify-content-center'>
                     <Hexagon
@@ -48,13 +58,19 @@ function Hexagons() {
                         style={{
                             stroke: 'black',
                         }}
-                    />
+                    >
+                        <text className='home-hex-text' x='15%' y='45%'>Job Search</text>
+                        <text className='home-hex-text' x='25%' y='60%'>Strategy</text>
+                    </Hexagon>
                     <Hexagon
                         className='home-hexagon-styled'
                         style={{
                             stroke: 'black',
                         }}
-                    />
+                    >
+                        <text className='home-hex-text' x='35%' y='45%'>View</text>
+                        <text className='home-hex-text' x='42%' y='60%'>All</text>
+                    </Hexagon>
                 </div>
             </div>
         </container>

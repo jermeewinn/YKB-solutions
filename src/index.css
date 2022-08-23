@@ -29,7 +29,6 @@ body {
 footer {
   position: static;
   bottom: 0;
-
 }
 
 .copyright {
@@ -93,6 +92,7 @@ h6 {
   margin-top: 10px;
   align-items: stretch;
 }
+
 /* Contact Component Stylings */
 .contact-content {
   text-align: center;
