@@ -241,6 +241,12 @@ footer {
   max-width: 250px;
 }
 
+.home-hexagon-styled:hover {
+  opacity: 0.4;
+  transform: scale(1.05);
+  transition: 0.3s
+}
+
 .home-hex-row {
   margin-bottom: -10px;
 }
