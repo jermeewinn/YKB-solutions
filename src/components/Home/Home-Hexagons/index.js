@@ -63,11 +63,14 @@ function Hexagons() {
                         <text className='home-hex-text' x='15%' y='45%'>Job Search</text>
                         <text className='home-hex-text' x='25%' y='60%'>Strategy</text>
                     </Hexagon>
+                    {/* NOTE TO SELF: If you wnat to input an href, you will need to wrap the Hexagon. */}
                     <Hexagon
                         className='home-hexagon-styled'
                         style={{
                             stroke: 'black',
                         }}
+                        href='/services'
+                        target='_self'
                     >
                         <text className='home-hex-text' x='35%' y='45%'>View</text>
                         <text className='home-hex-text' x='42%' y='60%'>All</text>
