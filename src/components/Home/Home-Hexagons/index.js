@@ -70,7 +70,7 @@ function Hexagons() {
                             stroke: 'black',
                         }}
                         href="/services"
-                        target="_blank"
+                        target="_self"
                     >
                         <text className='home-hex-text' x='35%' y='45%'>View</text>
                         <text className='home-hex-text' x='42%' y='60%'>All</text>
