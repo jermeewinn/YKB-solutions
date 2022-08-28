@@ -62,6 +62,14 @@ The software is provided "as is", without warranty of any kind, express or impli
 
 ## Screenshot
 
+## Supplementary Development Projects
+
+Here are the GitHub repositories developed in tandem with YKB Solutions to help create the central building blocks of several key concepts for this web application:
+
+- **[NavBar-Router-Test](https://github.com/jermeewinn/NavBar-Router-Test)**: This repository provides resources for implementing NavBars via React Bootstrap and React-Router-DOM; a great way to start any project with a React.js frontend.
+- **[Contact-Form-Test](https://github.com/jermeewinn/Contact-Form-Test)**: This repository provides resources for implementing a working contact form using a low-code solution called Email.js. This includes notes taken on a couple of methods to do so.
+- **[Hexagon-Render-Test](https://github.com/jermeewinn/Hexagon-Render-Test)**: This repository provides resources on how to render a hexagon using a Node.js library called React-Hexagons (link in Technologies Used). This can be considered a more in-depth look into the use of React Hexagon, and can provide more context on how to use this library than what is provided in the repository's demo.
+
 ## Future Development
 
 Here are a few things we are working on implementing into the web app:
