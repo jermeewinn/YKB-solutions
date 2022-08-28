@@ -68,6 +68,7 @@ function Hexagons() {
                         className='home-hexagon-styled'
                         style={{
                             stroke: 'black',
+                            fill: '#adb5bd'
                         }}
                         href="/services"
                         target="_self"
