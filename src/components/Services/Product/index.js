@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, Col, Modal, Button } from 'react-bootstrap';
 
 // NOTE TO SELF: Will need to import specific components from react-bootstrap. 
@@ -6,7 +6,7 @@ import { Card, Col, Modal, Button } from 'react-bootstrap';
 
 const Product = ({ service }) => {
     
-    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     function ServiceModal(props) {
 

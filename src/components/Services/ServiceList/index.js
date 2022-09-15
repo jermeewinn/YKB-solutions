@@ -6,7 +6,8 @@ function ServiceList() {
     const [services] = useState([
         {
             name: 'Career Consulting',
-            description: 'Career consulting is our bread and butter. Here we sit you down in a one-on-one setting and get to figuring out what you want for your career in the next 5 years, and what next steps you need to take to get there. Every program is different, and we tailor to your goals and needs.',
+            description: 
+                'Career consulting is our bread and butter. Here we sit you down in a one-on-one setting and get to figuring out what you want for your career in the next 5 years, and what next steps you need to take to get there. Every program is different, and we tailor to your goals and needs.',
             src: 'Meeting.jpg',
             alt: 'Two people talking'
         },
