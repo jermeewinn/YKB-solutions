@@ -1,6 +1,9 @@
 import React from 'react';
 import Hexagon from 'react-hexagon';
 
+// WHEN user clicks on a hexagon in hex-ring on the left,
+// THEN corresponding text and picture on the right.
+
 function Hexagons() {
     return(
         <div id='hexagon-ring' className='home-services'>
