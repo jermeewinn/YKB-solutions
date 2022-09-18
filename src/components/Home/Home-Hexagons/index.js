@@ -76,8 +76,8 @@ function Hexagons() {
                                 fill: '#adb5bd'
                             }}
                         >
-                            <text className='home-hex-text' x='15%' y='45%'>Cover Letter</text>
-                            <text className='home-hex-text' x='25%' y='60%'>Composition</text>
+                            <text className='home-hex-text' x='13%' y='45%'>Cover Letter</text>
+                            <text className='home-hex-text' x='10%' y='60%'>Composition</text>
                         </Hexagon>
                         {/* NOTE TO SELF: If you wnat to input an href, you will need to wrap the Hexagon. */}
                         <Hexagon
