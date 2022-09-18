@@ -6,6 +6,8 @@ import Hexagon from 'react-hexagon';
 
 function Hexagons() {
     const [text, setText] = useState('Here are some of the services we provide to our clients.');
+    //Need to figure out a way to have one onClick event handler to perform two tasks. 
+    const [title, setTitle] = useState();
 
     return(
         <div id='hexagon-ring' className='home-services'>
@@ -95,6 +97,7 @@ function Hexagons() {
                     </div>
                 </div>
                 <div className='home-text col-md-6'>
+                    <h3>{title}</h3>
                     {text}
                 </div>
             </div>
