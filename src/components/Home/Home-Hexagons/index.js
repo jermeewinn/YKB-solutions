@@ -1,5 +1,6 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import Hexagon from 'react-hexagon';
+import HexText from '../Home-Hexagons/Hexagon-Text';
 
 // WHEN user clicks on a hexagon in hex-ring on the left,
 // THEN corresponding text and picture on the right.
@@ -9,6 +10,11 @@ function Hexagons() {
     const [currentDescription, setCurrentDescription] = useState('Here are some of the services we provide to our clients');
 
     const services = [
+        {
+            id: 0,
+            name: 'Our Services',
+            description: 'Here are some of the services we provide to our clients.'
+        },
         {
             id: 1, 
             name: 'Resume Review', 
@@ -22,7 +28,7 @@ function Hexagons() {
         {
             id: 3,
             name: 'Career Consulting',
-            description: 'If the job application asks for a cover letter, submit one. We can work with you in going over key aspects on formatting, composition, and delivery of your cover letter.',
+            description: "We'll meet with you and work with you one on one to get an idea of what you're looking for, where you're coming from, and how we can help",
         },
         {
             id: 4,
@@ -31,7 +37,7 @@ function Hexagons() {
         },
         {   
             id: 5,
-            name: 'Cover Letter',
+            name: 'Cover Letter Composition',
             description: 'If the job application asks for a cover letter, submit one. We can work with you in going over key aspects on formatting, composition, and delivery of your cover letter.',
         }
     ];
@@ -129,8 +135,7 @@ function Hexagons() {
                     </div>
                 </div>
                 <div className='home-text col-md-6'>
-                    <h3>{title}</h3>
-                    {text}
+                    <HexText name={currentName} description={currentDescription} />
                 </div>
             </div>
         </div>
