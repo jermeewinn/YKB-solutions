@@ -60,7 +60,7 @@ function Hexagons() {
                         </Hexagon>
                         <Hexagon
                             className='home-hexagon-styled'
-                            onClick={() => setText('The future of job hunting is online, and Linkedin is a major part of that. We will help you create and configure your LinkedIn profile so that you can start job hunting quickly and efficiently.')}
+                            onClick={() => changeText(2)}
                             style={{
                                 stroke: 'black',
                                 fill: '#adb5bd'
@@ -73,7 +73,7 @@ function Hexagons() {
                     <div className='home-hex-row d-flex justify-content-center'>
                         <Hexagon
                             className='home-hexagon-styled'
-                            onClick={() => setText("Don't know what you want to do? We'll schedule a consultation with you to get an idea of where you're at and where you want to go.")}
+                            onClick={() => changeText(3)}
                             style={{
                                 stroke: 'black',
                                 fill: '#adb5bd'
@@ -91,7 +91,7 @@ function Hexagons() {
                         />
                         <Hexagon
                             className='home-hexagon-styled'
-                            onClick={() => setText("Got something on the books? That's great! We'll give you the interview prep you need so that you don't go into the interview lost. We will give you a mock interview so that you can mentally engage")}
+                            onClick={() => changeText(4)}
                             style={{
                                 stroke: 'black',
                                 fill: '#adb5bd'
@@ -104,7 +104,7 @@ function Hexagons() {
                     <div className='home-hex-row d-flex justify-content-center'>
                         <Hexagon
                             className='home-hexagon-styled'
-                            onClick={() => setText('If the job application asks for a cover letter, submit one. We can work with you in going over key aspects on formatting, composition, and delivery of your cover letter.')}
+                            onClick={() => changeText(5)}
                             style={{
                                 stroke: 'black',
                                 fill: '#adb5bd'
