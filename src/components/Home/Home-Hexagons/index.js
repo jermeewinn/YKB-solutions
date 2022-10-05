@@ -5,9 +5,36 @@ import Hexagon from 'react-hexagon';
 // THEN corresponding text and picture on the right.
 
 function Hexagons() {
-    const [text, setText] = useState('Here are some of the services we provide to our clients.');
-    //Need to figure out a way to have one onClick event handler to perform two tasks. 
-    const [title, setTitle] = useState();
+    const [currentName, setCurrentName] = useState('Our Services');
+    const [currentDescription, setCurrentDescription] = useState('Here are some of the services we provide to our clients');
+
+    const services = [
+        {
+            id: 1, 
+            name: 'Resume Review', 
+            description: 'Have one of our consultants take a look at your resume, and work with you in transforming it into a key that will open doors for your future job hunt. We optimize for ATS so that you can get your foot in more doors.',
+        },
+        {
+            id: 2,
+            name: 'LinkedIn Revision',
+            description: 'The future of job hunting is online, and Linkedin is a major part of that. We will help you create and configure your LinkedIn profile so that you can start job hunting quickly and efficiently.',
+        },
+        {
+            id: 3,
+            name: 'Career Consulting',
+            description: 'If the job application asks for a cover letter, submit one. We can work with you in going over key aspects on formatting, composition, and delivery of your cover letter.',
+        },
+        {
+            id: 4,
+            name: 'Interview Prep',
+            description: "Got something on the books? That's great! We'll give you the interview prep you need so that you don't go into the interview lost. We will give you a mock interview so that you can mentally engage",
+        },
+        {   
+            id: 5,
+            name: 'Cover Letter',
+            description: 'If the job application asks for a cover letter, submit one. We can work with you in going over key aspects on formatting, composition, and delivery of your cover letter.',
+        }
+    ];
 
     return(
         <div id='hexagon-ring' className='home-services'>
@@ -17,7 +44,7 @@ function Hexagons() {
                     <div id='root' className='home-hex-row d-flex justify-content-center'>
                         <Hexagon
                             className='home-hexagon-styled'
-                            onClick={() => setText('Have one of our consultants take a look at your resume, and work with you in transforming it into a key that will open doors for your future job hunt. We optimize for ATS so that you can get your foot in more doors.')}
+                            onClick={}
                             style={{
                                 stroke: 'black',
                                 fill: '#adb5bd'
