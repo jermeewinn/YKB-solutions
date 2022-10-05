@@ -7,7 +7,7 @@ import HexText from '../Home-Hexagons/Hexagon-Text';
 
 function Hexagons() {
     const [currentName, setCurrentName] = useState('Our Services');
-    const [currentDescription, setCurrentDescription] = useState('Here are some of the services we provide to our clients');
+    const [currentDescription, setCurrentDescription] = useState('Here are some of the services we provide to our clients.');
 
     const services = [
         {
