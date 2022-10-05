@@ -36,6 +36,11 @@ function Hexagons() {
         }
     ];
 
+    function changeText(id) {
+        setCurrentName(services[id].name);
+        setCurrentDescription(services[id].description);
+    };
+
     return(
         <div id='hexagon-ring' className='home-services'>
             <h2>How We Can Help</h2>
@@ -44,7 +49,7 @@ function Hexagons() {
                     <div id='root' className='home-hex-row d-flex justify-content-center'>
                         <Hexagon
                             className='home-hexagon-styled'
-                            onClick={}
+                            onClick={() => changeText(1)}
                             style={{
                                 stroke: 'black',
                                 fill: '#adb5bd'
