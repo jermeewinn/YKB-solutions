@@ -237,7 +237,7 @@ footer {
 
 .home-hexagon-styled {
   width: 100px;
-  margin-left: 25px;
+  margin-left: 10px;
   min-width: 100px;
   max-width: 250px;
 }
@@ -249,7 +249,7 @@ footer {
 }
 
 .home-hex-row {
-  margin-bottom: -10px;
+  margin-bottom: -20px;
 }
 
 .home-text {

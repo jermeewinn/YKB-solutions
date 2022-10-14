@@ -53,7 +53,7 @@ function Hexagons() {
                             onClick={() => changeText(0)}
                             style={{
                                 stroke: 'black',
-                                fill: '#adb5bd'
+                                fill: '#adb5bd'                                
                             }}
                         >
                             <text className='home-hex-text' x='25%' y='45%'>Resume</text>
