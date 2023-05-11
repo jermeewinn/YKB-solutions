@@ -9,8 +9,12 @@ function About() {
             <Helmet>
                 <title>YKB Coaching | Who We Are</title>
             </Helmet>
-            <h1 className='my-5'>Who We Are</h1>
-            <div id='sideByside'>
+            <div className='about-banner'>
+                <h1 className='my-5'>About YKB Coaching</h1>
+                <h4>Lorem ipsum dolor sit amet, concestetu adipiscing.</h4>
+                <p className='about-banner-paragraph'>Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet</p>
+            </div>
+            {/* <div id='sideByside'>
                 <div id='me-image'>
                     <img id='Michael' src={profilePic} className='my-2' alt='portrait-Michael' />
                 </div>
@@ -26,7 +30,7 @@ function About() {
 
                     Folly was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible.
                 </p>
-            </div>
+            </div> */}
         </section>
     )
 };

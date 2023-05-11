@@ -288,6 +288,13 @@ footer {
   transform: scale(1.05)
 }
 
+/* About Component Stylings*/
+
+
+.about-banner-paragraph {
+  max-width: 60%;
+  text-align: center;
+}
 /* Testimonial Component Stylings*/
 .testimonial-container {
   border-radius: 1%;
