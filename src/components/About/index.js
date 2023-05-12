@@ -11,8 +11,15 @@ function About() {
             </Helmet>
             <div className='about-banner'>
                 <h1 className='my-5'>About YKB Coaching</h1>
-                <h4>Lorem ipsum dolor sit amet, concestetu adipiscing.</h4>
-                <p className='about-banner-paragraph'>Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet</p>
+                <div className='contact-content'> 
+                    <h4>Lorem ipsum dolor sit amet, concestetu adipiscing.</h4>
+                    <div>
+                        <p className='about-banner-paragraph'>
+                            Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet Lorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit amet
+                        </p>
+                    </div>
+                </div>
+                
             </div>
             {/* <div id='sideByside'>
                 <div id='me-image'>

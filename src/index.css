@@ -293,8 +293,10 @@ footer {
 
 .about-banner-paragraph {
   max-width: 60%;
+  margin: auto;
   text-align: center;
 }
+
 /* Testimonial Component Stylings*/
 .testimonial-container {
   border-radius: 1%;
