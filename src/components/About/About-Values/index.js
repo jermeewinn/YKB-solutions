@@ -8,11 +8,11 @@ function AboutValues() {
                 <h4>
                     Our Values
                 </h4>
-                <p>
-                    Lorem ipsum dolor sit amet, conscectetu adipiscing sum dolo sit amet.
+                <p className='about-text'>
+                    Lorem ipsum dolor sit amet, conscectetu adipiscing sum dolo sit amet. consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet
                 </p>
             </div>
-            <div className='col-md-6'>
+            <div className='col-md-6 about-text'>
                 Hello
             </div>
         </div>

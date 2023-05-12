@@ -289,12 +289,20 @@ footer {
 }
 
 /* About Component Stylings*/
-
+.about-banner {
+  margin-bottom: 85px;
+}
 
 .about-banner-paragraph {
   max-width: 60%;
   margin: auto;
   text-align: center;
+}
+
+.about-text {
+  max-width: 60%;
+  text-align: center;
+  margin: auto;
 }
 
 /* Testimonial Component Stylings*/
