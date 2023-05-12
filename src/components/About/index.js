@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import AboutValues from './About-Values';
 import profilePic from '../../assets/profilePics/Michael-Mei-pfp.jpg';
 
 
@@ -19,8 +20,9 @@ function About() {
                         </p>
                     </div>
                 </div>
-                
             </div>
+            <AboutValues />
+            
             {/* <div id='sideByside'>
                 <div id='me-image'>
                     <img id='Michael' src={profilePic} className='my-2' alt='portrait-Michael' />
