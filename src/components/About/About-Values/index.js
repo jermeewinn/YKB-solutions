@@ -1,10 +1,9 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 
-
 function AboutValues() {
     return(
-        <div className='row'>
+        <div className='row about-subsection'>
             <div className='col-md-6'>
                 <h4>
                     Our Values

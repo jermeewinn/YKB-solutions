@@ -305,6 +305,10 @@ footer {
   margin: auto;
 }
 
+.about-subsection {
+  margin-bottom: 80px;
+}
+
 /* Testimonial Component Stylings*/
 .testimonial-container {
   border-radius: 1%;

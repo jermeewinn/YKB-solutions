@@ -3,8 +3,6 @@ import { Helmet } from 'react-helmet';
 import AboutValues from './About-Values';
 import AboutSpecial from './About-Special';
 
-
-
 function About() {
     return(
         <section id='about'>
