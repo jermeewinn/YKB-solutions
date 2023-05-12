@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 
 
 function AboutValues() {
@@ -13,7 +14,15 @@ function AboutValues() {
                 </p>
             </div>
             <div className='col-md-6 about-text'>
-                Hello
+                <div>
+                    <Col>
+                        <p>1. Lorem ipsum dolor sit amet, consectetu.</p>
+                        <p>2. Lorem ipsum dolor sit amet, consectetu.</p>
+                        <p>3. Lorem ipsum dolor sit amet, consectetu.</p>
+                        <p>4. Lorem ipsum dolor sit amet, consectetu.</p>
+                        <p>5. Lorem ipsum dolor sit amet, consectetu.</p>
+                    </Col>
+                </div>
             </div>
         </div>
         
