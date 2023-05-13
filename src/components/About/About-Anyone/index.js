@@ -5,6 +5,9 @@ function AboutAnyone() {
     return(
         <div className='row about-subsection align-items-center'>
             <div className='col-md-6'>
+                <img src={Group} alt='Group work photo'></img>
+            </div>
+            <div className='col-md-6'>
                 <h4>
                     Anyone Can Join
                 </h4>
@@ -12,9 +15,7 @@ function AboutAnyone() {
                     Lorem ipsum dolor sit amet, conscectetu adipiscing sum dolo sit amet. consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet, consectetu adipiscing sum dolo sit ametLorem ipsum dolor sit amet
                 </p>
             </div>
-            <div className='col-md-6'>
-                <img src={Group} alt='Group work photo'></img>
-            </div>
+            
         </div>
     )
 };
