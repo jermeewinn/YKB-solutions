@@ -3,7 +3,7 @@ import { Col } from 'react-bootstrap';
 
 function AboutValues() {
     return(
-        <div className='row about-subsection'>
+        <div className='row about-subsection align-items-center'>
             <div className='col-md-6'>
                 <h4>
                     Our Values
