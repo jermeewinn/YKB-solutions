@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import AboutValues from './About-Values';
 import AboutSpecial from './About-Special';
+import AboutAnyone from './About-Anyone';
 
 function About() {
     return(
@@ -22,6 +23,7 @@ function About() {
             </div>
             <AboutValues />
             <AboutSpecial />
+            <AboutAnyone />
         </section>
     )
 };
